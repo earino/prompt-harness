@@ -1,0 +1,1591 @@
+{
+  "prompts": [
+    {
+      "id": "thank-you-first-time-donor",
+      "title": "Thank You Letter - First-Time Donor",
+      "description": "Personalized thank-you for first-time donors under $100",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "thank you",
+        "stewardship",
+        "donor retention"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "First impressions matter enormously for donor retention. Small shops write dozens of these monthly but struggle to make each feel personal. Generic thank-yous lead to one-time givers. Limited time to customize. Need to feel genuine without being time-intensive.",
+      "best_practices": "Send within 48 hours of gift. Use donor's name and specific gift amount. Mention what their gift will accomplish (concrete impact). Warm, conversational tone. No immediate ask for another gift. Keep to 150-250 words. Include personal signature from leadership when possible.",
+      "why_it_matters": "First-time donor retention averages only 19% sector-wide. A strong thank-you letter can increase second-gift likelihood by 40%. The thank-you sets the tone for the entire donor relationship."
+    },
+    {
+      "id": "thank-you-mid-level-donor",
+      "title": "Thank You Letter - Mid-Level Donor",
+      "description": "Appreciation letter for donors giving $100-$999",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "thank you",
+        "mid-level",
+        "stewardship"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Mid-level donors often feel invisible - too large for form letters, too small for major gift treatment. Development Directors juggle 50-200 of these donors and struggle to differentiate stewardship. Risk losing upgrades due to generic communication. Limited capacity for personalization at scale.",
+      "best_practices": "Acknowledge any upgrade from previous giving level. Reference their history if multi-year donor. Include specific program impact tied to their giving level. Personal phone call or handwritten note within 1 week. Mention next touchpoint without asking. 200-300 words.",
+      "why_it_matters": "Mid-level donors ($100-$999) have highest upgrade potential to major gifts but receive least attention. Proper stewardship at this level builds pipeline for 5- and 6-figure gifts. Mid-level attrition costs more than acquiring new small donors."
+    },
+    {
+      "id": "thank-you-major-donor",
+      "title": "Thank You Letter - Major Donor",
+      "description": "Personalized thank-you for gifts of $1,000+",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "major gifts",
+        "thank you",
+        "high-touch stewardship"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Major donors expect highly personalized recognition but EDs are overwhelmed. Must balance gratitude with building relationship. Anxiety about saying wrong thing or being too transactional. Each major donor relationship is unique - templates feel insufficient. Need to hint at impact without immediate hard ask.",
+      "best_practices": "Call first, then send letter same day. Reference specific conversation points from cultivation. Detail exactly how their gift will be used. Include leadership voice (ED or Board Chair). Mention planned follow-up (site visit, impact report). Hand-signed. 250-400 words. Frame as beginning of partnership, not transaction.",
+      "why_it_matters": "Major donors provide 88% of fundraising revenue but represent only 12% of donor count. Retention of major donors directly impacts organizational sustainability. A single lost major donor can take 100+ small donors to replace. First thank-you sets tone for multi-year relationship."
+    },
+    {
+      "id": "thank-you-recurring-donor",
+      "title": "Thank You Letter - Monthly Donor",
+      "description": "Appreciation for recurring/sustaining donors",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "monthly giving",
+        "recurring",
+        "sustainers"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Monthly donors are most loyal but often neglected because gifts feel automatic. Risk of donor fatigue if over-thanked. Balancing ongoing appreciation without being repetitive. Churn happens quietly (card expires, forgotten subscription). Need to maintain engagement without annoying.",
+      "best_practices": "Thank at enrollment and quarterly thereafter. Emphasize stability their gift provides ('dependable', 'sustained'). Show cumulative annual impact. Remind them of ease/flexibility to modify. No pressure to upgrade. Keep tone warm and low-key. Include exclusive 'sustainer' recognition. 150-200 words.",
+      "why_it_matters": "Monthly donors have 90%+ retention vs. 45% for one-time givers. They give 42% more annually than one-time donors. Sustainer programs provide predictable cash flow critical for small nonprofits. Lifetime value of monthly donor is 5-7x that of annual donor."
+    },
+    {
+      "id": "thank-you-tribute-gift",
+      "title": "Thank You Letter - Tribute/Memorial Gift",
+      "description": "Sensitive acknowledgment for gifts in honor or memory",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "tribute",
+        "memorial",
+        "honor"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Requires emotional sensitivity during grief or celebration. Must honor the person being memorialized while thanking donor. Risk of saying wrong thing or being tone-deaf. Often involves multiple parties (donor, honoree family). Notification timing is critical. Struggle with appropriate language.",
+      "best_practices": "Send within 24-48 hours. Use person's name prominently ('in memory of [Name]'). Acknowledge the significance of the tribute. Brief, dignified tone. Offer to send notification card to family if requested. No fundraising language. 150-200 words. Separate letter to honoree family (simpler, focuses on the tribute itself).",
+      "why_it_matters": "Tribute gifts represent 15-20% of individual giving for many nonprofits. Mishandling can permanently damage donor relationships and organizational reputation. Handled well, tribute donors often become long-term supporters. Families of honorees frequently become new donors."
+    },
+    {
+      "id": "thank-you-in-kind-donation",
+      "title": "Thank You Letter - In-Kind Donation",
+      "description": "Acknowledgment for non-monetary gifts",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "in-kind",
+        "non-cash",
+        "gifts"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "In-kind donors feel undervalued compared to cash givers. Describing impact of non-monetary gifts is challenging. Legal requirement to provide receipt but can't assign dollar value. Volunteers who donate time expect recognition too. Balancing IRS compliance with warm gratitude.",
+      "best_practices": "Describe the gift specifically (not just 'donation of goods'). Explain how it will be used immediately. Mention retail value if donor provided it, otherwise describe quantity. Same warmth as cash gift letter. Include IRS-compliant receipt language. 150-250 words. Reference any volunteer time separately.",
+      "why_it_matters": "In-kind donations save cash for mission-critical work. Valued in-kind donors often transition to cash givers. Proper receipts are legally required for donor tax deductions. Well-acknowledged in-kind donors become organizational advocates and refer others."
+    },
+    {
+      "id": "lapsed-donor-reengagement",
+      "title": "Lapsed Donor Re-Engagement Email",
+      "description": "Win-back message for donors who haven't given in 13-24 months",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "lapsed",
+        "win-back",
+        "reactivation"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Unsure how to acknowledge the lapse without inducing guilt. Difficult to restart relationship after silence. Concerned about seeming desperate or pushy. Don't know why they lapsed. Competing with hundreds of other organizations. Limited time to personalize for large lapsed files.",
+      "best_practices": "Warm, non-judgmental tone ('we miss you', not 'where have you been'). Share organizational wins since their last gift. Offer easy re-entry point (small ask or survey). No guilt language. Short and focused. Give them credit for past support. 200-300 words. Subject line: curiosity not desperation.",
+      "why_it_matters": "Reactivating lapsed donors costs 5x less than acquiring new ones. Lapsed donors gave before - they already believe in the mission. Average nonprofit loses 50% of donors year-over-year. Even 10% reactivation significantly impacts revenue. Lapsed file is largest under-utilized asset most organizations have."
+    },
+    {
+      "id": "donor-upgrade-ask",
+      "title": "Donor Upgrade Ask (One-Time to Monthly)",
+      "description": "Invitation to convert annual gift to monthly giving",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": [
+        "monthly giving",
+        "upgrade",
+        "conversion"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Fear of losing donor by asking too much. Explaining monthly giving benefits without sounding self-serving. Overcoming 'I already gave' objection. Making monthly sound easy, not like added commitment. Timing the ask appropriately. Competing with donor's other subscriptions.",
+      "best_practices": "Frame as 'spreading impact throughout the year'. Show math ($50/month = $600 vs. $250 annual). Emphasize convenience and flexibility ('pause anytime'). Use social proof ('join 200+ sustainers'). Offer modest monthly amount as entry ($15-25). Thank them first for annual support. 250-350 words. Include easy enrollment link.",
+      "why_it_matters": "Monthly donors give 42% more annually than one-time donors at same level. They provide predictable cash flow for budgeting. Retention rates are 90% vs. 45% for annual givers. Converting even 10% of annual donors transforms organizational financial stability."
+    },
+    {
+      "id": "annual-fund-appeal",
+      "title": "Annual Fund Appeal Letter",
+      "description": "Year-end or annual campaign letter to donor base",
+      "category": "fundraising",
+      "subcategory": "Fundraising Appeals",
+      "tags": [
+        "annual fund",
+        "appeal",
+        "year-end"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Competing in crowded year-end inbox. Differentiating from last year's appeal. Making case for unrestricted support without seeming vague. Balancing urgency with authenticity. Segmenting 1,000+ person list with 2-person team. Donor fatigue from constant asks. Pressure to hit annual budget target.",
+      "best_practices": "Lead with story, not statistics. Clear case for unrestricted support. Specific ask amounts based on giving history. Match or deadline to create urgency. Brief (1 page). PS with restatement of ask. Multiple CTAs (mail, online, QR). Segment by donor level (lapsed, mid, major). 300-500 words.",
+      "why_it_matters": "30-45% of annual revenue comes in Q4. Annual appeals fund operational costs that restricted grants won't cover. Unrestricted funds provide flexibility for mission delivery. Well-executed appeals generate multi-year donor loyalty beyond single campaign."
+    },
+    {
+      "id": "giving-tuesday-email",
+      "title": "GivingTuesday Campaign Email",
+      "description": "Day-of email for GivingTuesday participation",
+      "category": "fundraising",
+      "subcategory": "Fundraising Appeals",
+      "tags": [
+        "GivingTuesday",
+        "campaign",
+        "email"
+      ],
+      "role": [
+        "Development Director",
+        "Communications Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Fighting through noise of 50,000 other nonprofits. Limited time to plan (GT date changes yearly). Unclear if it cannibalizes year-end giving. Small organizations lack capacity for multi-channel campaigns. Matching funds are hard to secure. Pressure to participate because 'everyone else is.'",
+      "best_practices": "Simple, urgent, specific. One clear goal (donor count or dollar amount). Match or challenge if available. Social media integration. Multi-email strategy (morning reminder, mid-day update, evening final push). Emphasis on community participation over dollar amount. 150-250 words per email.",
+      "why_it_matters": "GivingTuesday generates $2.7B annually. Activates younger donors and first-time givers. Creates momentum entering year-end season. Peer-to-peer amplification through social sharing. Organizations that participate see 30%+ increase in December giving."
+    },
+    {
+      "id": "year-end-campaign-series",
+      "title": "Year-End Campaign Email Series (3-part)",
+      "description": "Multi-touch email sequence for December giving",
+      "category": "fundraising",
+      "subcategory": "Fundraising Appeals",
+      "tags": [
+        "year-end",
+        "email series",
+        "December"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Coordinating multi-email cadence without annoying donors. Each email must stand alone but build together. Balancing urgency with gratitude. Managing unsubscribes during high-frequency. Creating different angles for same ask. Tracking who opened/gave to avoid duplicate asks.",
+      "best_practices": "Email 1 (Dec 1-10): Story-focused case for support. Email 2 (Dec 15-23): Urgency/deadline reminder with social proof. Email 3 (Dec 28-31): Final push with tax deadline. Different subject lines and angles. Segment by engagement. Suppress donors who already gave. Each 200-300 words.",
+      "why_it_matters": "December drives 30-40% of annual individual giving. Multi-touch increases conversion 3-5x vs. single appeal. Email sequences allow storytelling arc that single letter cannot. Donors expect multiple asks in December - silence suggests organizational weakness."
+    },
+    {
+      "id": "emergency-urgent-appeal",
+      "title": "Emergency/Urgent Appeal",
+      "description": "Crisis response or urgent need fundraising message",
+      "category": "fundraising",
+      "subcategory": "Fundraising Appeals",
+      "tags": [
+        "emergency",
+        "urgent",
+        "crisis"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Balancing urgency with not crying wolf. Risk of seeming opportunistic or manipulative. Donors question if emergency is real or manufactured. Can't overuse urgency or donors tune out. Must act quickly but maintain brand voice. Board approval for off-plan appeals takes time.",
+      "best_practices": "Only use for genuine emergencies (disaster, unexpected need, expiring opportunity). Specific, time-bound need. Concrete dollar goal. Explain why now/why urgent. Show organizational credibility to respond. Clear plan for fund use. 250-400 words. Follow-up with rapid impact report.",
+      "why_it_matters": "Authentic urgency drives 2-3x higher response rates. Demonstrates organizational agility and relevance. Tests donor trust and mission commitment. Overuse destroys credibility. When warranted, emergency appeals can close budget gaps or seize strategic opportunities."
+    },
+    {
+      "id": "peer-to-peer-template",
+      "title": "Peer-to-Peer Fundraising Template",
+      "description": "Sample message for individual fundraisers to customize",
+      "category": "fundraising",
+      "subcategory": "Fundraising Appeals",
+      "tags": [
+        "peer-to-peer",
+        "individual fundraising",
+        "template"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Volunteers don't know what to say. People feel awkward asking friends for money. Templates feel impersonal but blank pages are paralyzing. Balancing organizational story with personal connection. Making it easy enough that people actually send it. Competing with hundreds of other P2P asks in donor's inbox.",
+      "best_practices": "Start with 'why I'm involved' personal statement. Brief organizational intro. Specific ask ('$25 provides...'). Easy giving link. Keep to 150-250 words. Provide 3-4 versions (email, text, social). Include tips for customization. Encourage personal story addition.",
+      "why_it_matters": "Peer-to-peer leverages social networks, expanding donor base exponentially. Personal asks convert at 3-5x organizational asks. P2P fundraisers bring new demographics. Engaged P2P participants often become organizational donors/volunteers themselves."
+    },
+    {
+      "id": "monthly-giving-pitch",
+      "title": "Monthly Giving Pitch",
+      "description": "Standalone message making case for recurring support",
+      "category": "fundraising",
+      "subcategory": "Fundraising Appeals",
+      "tags": [
+        "monthly giving",
+        "sustainers",
+        "recurring"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Overcoming 'I already gave' objection. Making monthly commitment sound manageable not burdensome. Explaining why monthly matters without sounding self-serving. Competition from streaming services and other subscriptions. Unclear what amount to suggest. Processing fees for small recurring gifts.",
+      "best_practices": "Lead with impact of sustained support ('lights stay on', 'consistent services'). Use coffee/latte comparison for monthly amount ($15-25). Emphasize flexibility ('change or cancel anytime'). Show annual impact math. Include sustainer community benefits. Testimonial from current monthly donor. 300-400 words.",
+      "why_it_matters": "Monthly giving programs provide predictable cash flow essential for operations. Sustainers have 90%+ retention rates. They give 42% more annually than comparable one-time donors. Sustainer programs reduce fundraising costs by minimizing annual appeal cycles."
+    },
+    {
+      "id": "grant-executive-summary",
+      "title": "Grant Executive Summary",
+      "description": "Compelling 1-page overview of grant proposal",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "grants",
+        "proposal",
+        "executive summary"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Executive summaries are read first but written last when writer is exhausted. Must distill 20-page proposal into compelling single page. Balancing funder priorities with organizational voice. Unclear what to emphasize vs. what to cut. Different funders want different emphasis. Pressure to make every word count.",
+      "best_practices": "Write last, after full proposal complete. Lead with problem statement and your solution. Include ask amount and timeline prominently. Brief program description with measurable outcomes. Show organizational qualifications in 1-2 sentences. Match funder priorities explicitly. Use active voice. 250-500 words (1 page max). No jargon.",
+      "why_it_matters": "Program officers read executive summaries first and often exclusively for initial screening. Strong summary can advance weak proposal; weak summary kills strong proposal. 60% of grant decisions happen at summary review stage. This is the highest-leverage page in your application."
+    },
+    {
+      "id": "grant-needs-statement",
+      "title": "Grant Needs Statement",
+      "description": "Compelling problem statement demonstrating community need",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "grants",
+        "needs",
+        "problem statement"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Balancing compelling narrative with data rigor. Finding recent local statistics vs. national data. Demonstrating need without seeming hopeless or incompetent. Differentiating from 50 other applicants in same region. Proving organizational capacity to address the need. Avoiding deficit framing while showing gap. Tailoring to funder priorities without misrepresenting.",
+      "best_practices": "Lead with local statistic or story. Quantify problem with credible data (cite sources). Show gap between current state and desired state. Demonstrate root cause understanding. Connect to funder priorities explicitly. Avoid jargon and melodrama. Show urgency without desperation. 300-500 words typical. Include both quantitative and qualitative evidence.",
+      "why_it_matters": "Needs statements are the foundation of competitive grant proposals. Weak needs = declined proposal regardless of program quality. Funders fund problems they understand and believe are solvable. Strong needs statements differentiate you from other applicants and justify funding request."
+    },
+    {
+      "id": "grant-project-description",
+      "title": "Grant Project Description/Narrative",
+      "description": "Detailed program narrative for grant proposal",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "grants",
+        "program",
+        "narrative"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Translating program complexity into clear narrative. Balancing comprehensiveness with page limits. Meeting funder-specific requirements while maintaining voice. Coordinating input from multiple staff. Writing accessibly for non-expert reviewers. Demonstrating innovation without seeming risky. Showing fidelity to model while allowing flexibility.",
+      "best_practices": "Clear structure: goals, activities, timeline, outputs, outcomes. Use logic model framework. Specific and measurable objectives. Realistic timeline with milestones. Evidence-based approach with citations. Address sustainability beyond grant period. Anticipate reviewer questions. Match funder language. 800-2000 words typical. Include implementation details.",
+      "why_it_matters": "Project narrative is the heart of proposal - where program quality is evaluated. Reviewers assess organizational capacity, program design rigor, and likelihood of success here. Strong narratives win competitive grants. Weak narratives waste weeks of proposal development. This section directly determines funding decisions."
+    },
+    {
+      "id": "grant-budget-narrative",
+      "title": "Grant Budget Narrative",
+      "description": "Written justification for grant budget line items",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "grants",
+        "budget",
+        "narrative"
+      ],
+      "role": [
+        "Development Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Explaining indirect costs without seeming greedy. Justifying personnel costs to skeptical funders. Making budget match program narrative precisely. Demonstrating cost-effectiveness. Addressing match or cost-share requirements. Allocating shared costs across multiple programs. Avoiding budget math errors that sink proposals.",
+      "best_practices": "Justify every line item with program connection. Explain FTE percentages and allocation methodology. Defend indirect rate with examples. Show leverage (match, in-kind). Use cost-per-participant or cost-per-outcome metrics. Address sustainability. Match budget categories to funder requirements exactly. 300-600 words. Align perfectly with narrative activities.",
+      "why_it_matters": "Budget narratives demonstrate financial competence and stewardship. Unjustified costs raise red flags. Strong narratives justify higher indirect rates and personnel expenses. Budget credibility directly impacts proposal scores. Weak budget narratives can disqualify otherwise strong proposals."
+    },
+    {
+      "id": "letter-of-support-request",
+      "title": "Letter of Support Request",
+      "description": "Ask to partner/stakeholder for grant support letter",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "letters of support",
+        "partnerships",
+        "collaboration"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Asking busy partners for favor with tight timeline. Making request easy enough they actually do it. Providing enough guidance without writing it for them (funder can tell). Getting specific commitments vs. vague support. Coordinating multiple letters with 48-hour deadline. Following up without being annoying.",
+      "best_practices": "Make request 2-3 weeks before deadline. Provide 1-paragraph program summary. List specific talking points they should address (their role, collaboration specifics, community benefit). Suggest length (1 page). Include deadline prominently. Offer to provide draft for them to customize. Thank them in advance. 150-250 words. Attach proposal summary.",
+      "why_it_matters": "Letters of support demonstrate community buy-in and collaborative capacity. Required for most federal and many foundation grants. Strong letters from credible partners significantly strengthen proposals. Poor/generic letters can actually hurt application. Getting quality letters requires clear requests."
+    },
+    {
+      "id": "grant-prospect-research",
+      "title": "Grant Prospect Research Summary",
+      "description": "One-page research brief on potential funder",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "research",
+        "prospect",
+        "funder"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Limited time for research with dozens of prospects. Information overload from 990s and websites. Unclear if organization is good fit. Missing insider knowledge of funder priorities. Difficulty predicting success odds. Balancing time spent researching vs. writing proposals.",
+      "best_practices": "Include: funder mission, priority areas, geographic focus, typical grant size, eligibility requirements, deadlines, application process, success rate if available. Note: recent grantees in similar area, any connections/relationships. Decision: good fit (pursue), maybe (monitor), poor fit (skip). Keep to 1 page. Template format for consistency.",
+      "why_it_matters": "Quality research prevents wasted proposals to misaligned funders. Well-targeted applications have 3-5x higher success rates. Research identifies relationship cultivation opportunities. Saves hundreds of hours on unfundable applications. Good prospect research builds institutional knowledge over time."
+    },
+    {
+      "id": "grant-final-report",
+      "title": "Grant Final Report",
+      "description": "End-of-grant impact and financial report",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": [
+        "reporting",
+        "compliance",
+        "impact"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Gathering data from multiple sources under deadline. Explaining variance from proposed vs. actual outcomes. Demonstrating impact when results are mixed. Coordinating financial reporting with narrative. Meeting funder-specific requirements. Balancing honesty about challenges with positive framing. Fear of jeopardizing future funding.",
+      "best_practices": "Report on original objectives with specific metrics. Explain any deviations with context. Include both quantitative data and qualitative stories. Match budget actuals to proposal. Acknowledge challenges and lessons learned professionally. Highlight unexpected successes. Include beneficiary voice. Thank funder. 600-1200 words typical.",
+      "why_it_matters": "Final reports determine renewal funding and future applications. Strong reports build funder confidence and trust. Transparent reporting about challenges demonstrates maturity. Reports are marketing for next grant. 70% of multi-year funding depends on quality reporting."
+    },
+    {
+      "id": "donor-prospect-research",
+      "title": "Donor Prospect Research Brief",
+      "description": "Research summary on potential major donor",
+      "category": "fundraising",
+      "subcategory": "Major Donor Relations",
+      "tags": [
+        "major gifts",
+        "research",
+        "prospect"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Limited access to wealth screening tools. Balancing public information research with privacy concerns. Unclear what information matters vs. trivia. Time-intensive manual research on LinkedIn/Google. Difficult to assess giving capacity. Missing personal connection insights. Uncertain about cultivation approach.",
+      "best_practices": "Include: professional background, estimated capacity, giving history (public 990 data), connections to organization, interests/passions, other philanthropic involvement. Note potential entry points and relationship builders. 1-page limit. Use template for consistency. Update after each interaction. Source all claims.",
+      "why_it_matters": "Quality research prevents wasted cultivation on poor prospects. Identifies relationship pathways and gift timing. Informs personalized cultivation strategy. Capacity research ensures appropriate ask amounts. Good prospect research can increase close rates from 10% to 40%+."
+    },
+    {
+      "id": "cultivation-strategy",
+      "title": "Cultivation Strategy Plan",
+      "description": "12-month plan to move prospect to solicitation",
+      "category": "fundraising",
+      "subcategory": "Major Donor Relations",
+      "tags": [
+        "major gifts",
+        "cultivation",
+        "strategy"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Unclear how many touches needed before ask. Balancing organization needs with appropriate cultivation timing. Coordinating ED/Board involvement. Creating meaningful touches that aren't transparent moves. Tracking cultivation progress. Knowing when prospect is ready. Getting volunteer solicitors to follow plan.",
+      "best_practices": "Start with prospect profile and capacity. Define cultivation goal (ask amount/project). Plan 5-8 meaningful touches over 6-12 months. Mix formats (meetings, site visits, events, updates). Assign owners and dates. Build to natural solicitation moment. Include qualification questions. Track engagement signals. 1-2 pages.",
+      "why_it_matters": "Systematic cultivation dramatically increases close rates and gift size. Rushed asks leave money on table. Strategic cultivation builds multi-year relationships. Plans keep team accountable and coordinated. Major gift cultivation is highest ROI development activity."
+    },
+    {
+      "id": "major-gift-proposal",
+      "title": "Personalized Major Gift Proposal",
+      "description": "Tailored proposal for 5-6 figure gift from individual donor",
+      "category": "fundraising",
+      "subcategory": "Major Donor Relations",
+      "tags": [
+        "major gifts",
+        "proposal",
+        "ask"
+      ],
+      "role": [
+        "Development Director",
+        "Executive Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Every major donor is unique - template feels wrong. Balancing donor interests with org needs. Pricing a multi-year commitment appropriately. Making case without sounding desperate. Fear of asking for too much or too little. Coordinating ED/Board approval. Including donor in project design vs. dictating terms.",
+      "best_practices": "Open with donor's connection to mission. Describe project aligned to their interests. Specific budget and timeline. Named gift opportunities if appropriate. Clear outcomes and reporting plan. Multi-year pledge structure if relevant. Recognition options. 3-5 pages. Professional but personal. Include donor in project design where appropriate.",
+      "why_it_matters": "Major gifts fund strategic initiatives unreachable through annual fund. Personalized proposals show respect and build partnership. Generic proposals rarely close 6-figure gifts. Quality proposals can unlock transformational funding. Strong proposals set professional tone for donor relationship."
+    },
+    {
+      "id": "major-donor-meeting-prep",
+      "title": "Major Donor Meeting Prep Notes",
+      "description": "Briefing doc for ED/Board before donor meeting",
+      "category": "fundraising",
+      "subcategory": "Major Donor Relations",
+      "tags": [
+        "major gifts",
+        "meetings",
+        "preparation"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Ensuring ED/Board has critical context without overwhelming them. Anticipating donor questions and objections. Coordinating ask amount and timing with team. Prepping for various conversation directions. Briefing busy volunteers with minimal notice. Capturing institutional knowledge. Documenting outcomes.",
+      "best_practices": "Include: donor background (1 paragraph), relationship history, meeting objective, talking points, questions to ask, potential objections, ask amount/range if applicable. Note what NOT to say. Post-meeting: document outcomes, commitments, next steps. Keep to 1 page. Use bullet points. Attach research brief.",
+      "why_it_matters": "Prepared meetings convert at 3x rate of unprepared. Major donors expect organizational knowledge of their background. Missed opportunities are rarely recoverable. Good prep prevents embarrassing mistakes. Documentation builds institutional memory as staff turn over."
+    },
+    {
+      "id": "linkedin-post-program-impact",
+      "title": "LinkedIn Post - Program Impact",
+      "description": "Professional post highlighting program outcomes",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "LinkedIn",
+        "impact",
+        "professional"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Standing out in feed among corporate content. Finding right tone - professional but not stuffy. Quantifying impact concisely. Avoiding nonprofit clich\u00e9s while staying authentic. Consistent posting with small team. Engaging funders and board without boring community. LinkedIn algorithm favors personal accounts over org pages.",
+      "best_practices": "Lead with impact stat or outcome in first sentence (the hook). Tell story in 3-5 short paragraphs. Include CTA. Tag partners when appropriate. Use 3-5 relevant hashtags. Professional tone but human. 100-200 words optimal. Post as ED personal account for more reach. Include relevant image or data visualization.",
+      "why_it_matters": "LinkedIn reaches funders, board prospects, and professional partners unreachable on other platforms. Organizations posting 2-3x/week see 2x engagement. Quality LinkedIn presence builds organizational credibility. Posts from ED personal accounts get 5-10x more reach than org page."
+    },
+    {
+      "id": "facebook-post-event",
+      "title": "Facebook Post - Event Announcement",
+      "description": "Community-focused event promotion post",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "Facebook",
+        "events",
+        "promotion"
+      ],
+      "role": [
+        "Communications Manager",
+        "Program Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Competing with hundreds of daily posts in feed. Unclear what details to include. Balancing information with brevity. Getting registrations vs. just awareness. Event posts buried by algorithm. Multiple events to promote with limited post frequency. Creating urgency without spam.",
+      "best_practices": "Lead with compelling hook (not 'Join us for...'). What/when/where in first 2 lines. Why it matters (benefit/impact). Brief description. Clear CTA with link. Use Facebook Event feature for tracking. Best posting time: 6-9am or 12-2pm. 100-150 words. Include engaging photo. Create Event page first, then promote.",
+      "why_it_matters": "Facebook remains primary event discovery platform for community nonprofits. Event posts that use Facebook Events get 3x more RSVPs. Consistent event promotion builds community anticipation and attendance habits. Well-promoted events can drive 30-50% more attendance."
+    },
+    {
+      "id": "instagram-caption-bts",
+      "title": "Instagram Caption - Behind-the-Scenes",
+      "description": "Authentic BTS post showing organizational culture",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "Instagram",
+        "behind-the-scenes",
+        "culture"
+      ],
+      "role": [
+        "Communications Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Making mundane work seem interesting. Balancing authenticity with professionalism. Privacy concerns with staff/beneficiary photos. Creating engaging captions when image is simple. Standing out in scroll. Maintaining consistent aesthetic. Getting quality photos from phone cameras.",
+      "best_practices": "Strong hook in first line (shows in feed before '...more'). Tell micro-story in caption. Conversational tone. 40-80 words + 5-8 hashtags. Use line breaks for readability. Tag staff (with permission). Include CTA or question. Best times: 11am-1pm or 7-9pm. Carousel format increases engagement 2x. Mix candid and polished.",
+      "why_it_matters": "BTS content humanizes organization and builds donor connection. Instagram users expect authentic, visual storytelling. BTS posts generate 40% more comments than polished content. Builds organizational personality and relatability. Engages younger donors (18-35) who value transparency."
+    },
+    {
+      "id": "twitter-thread-awareness",
+      "title": "X/Twitter Thread - Awareness Campaign",
+      "description": "Multi-tweet story for issue awareness",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "Twitter",
+        "X",
+        "thread",
+        "awareness"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Platform volatility and declining reach. Condensing complex issues to 280 characters. Thread coherence - each tweet must stand alone. Unclear optimal thread length. Competing for attention in rapid-scroll feed. Negative/troll responses. Knowing when thread format works vs. single tweet.",
+      "best_practices": "Tweet 1: Hook with surprising stat or question. Tweets 2-5: Story arc with one idea per tweet. Final tweet: Clear CTA. Number tweets (1/6, 2/6). Keep each tweet under 260 characters. Use simple language. 1-2 hashtags max. Thread on important topics only (2-3x/month max). Best time: 8-10am or 12-1pm weekdays.",
+      "why_it_matters": "Threads can reach 10-20x more people than single tweets when algorithm favors them. Effective for advocacy and awareness campaigns. Threads demonstrate thought leadership. Despite platform challenges, X/Twitter remains critical for reaching journalists, policymakers, and thought leaders."
+    },
+    {
+      "id": "social-media-content-calendar",
+      "title": "Social Media Content Calendar",
+      "description": "Monthly content calendar for multiple platforms",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "content calendar",
+        "planning",
+        "strategy"
+      ],
+      "role": [
+        "Communications Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Managing 4-5 platforms with one person. Content creation from scratch is exhausting. Planning ahead but staying flexible for timely content. Maintaining consistent frequency across platforms. Balancing asks with education/community content. Repurposing content appropriately per platform. Tracking what was posted where.",
+      "best_practices": "Plan monthly, review weekly. Follow 60-30-10 rule (60% education/impact, 30% community/BTS, 10% asks). Platform-specific optimization. Include batch-creation days. Mix planned and flex slots for timely content. Realistic cadence for team size (2-3x/week Facebook for <10K followers). Use scheduling tools. Include content themes.",
+      "why_it_matters": "Content calendars reduce last-minute scrambling and improve strategic messaging. Organizations with calendars post 2-3x more consistently. Consistency drives 40%+ better engagement. Calendars allow campaign integration and storytelling arcs. Planning reduces staff burnout."
+    },
+    {
+      "id": "hashtag-strategy-campaign",
+      "title": "Hashtag Strategy for Campaign",
+      "description": "Research and selection of campaign hashtags",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "hashtags",
+        "campaigns",
+        "reach"
+      ],
+      "role": [
+        "Communications Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Unclear which hashtags actually work. Balance between reach (popular tags) and relevance (niche tags). Platform differences (Instagram vs. LinkedIn). Creating campaign-specific tag that people use. Competing with trending tags. Hashtag fatigue. Accessibility (CamelCase) often forgotten.",
+      "best_practices": "Mix size: 1-2 broad (100K+ uses), 2-3 niche (5-50K), 1 campaign-specific. Research current usage. CamelCase for accessibility. Platform-specific counts: Instagram 10-15, LinkedIn/Facebook 3-5, X 1-2. Test performance. Avoid banned/spammy tags. Include org-specific tag. Update quarterly.",
+      "why_it_matters": "Strategic hashtags increase reach by 30-100% depending on platform. Campaign hashtags unify messaging and enable tracking. Well-chosen tags connect to existing conversations. Accessibility-formatted hashtags serve screen reader users. Hashtag strategy is free distribution."
+    },
+    {
+      "id": "awareness-day-post",
+      "title": "Awareness Day Post (International Day of...)",
+      "description": "Timely post for relevant awareness observance",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "awareness days",
+        "observances",
+        "timely"
+      ],
+      "role": [
+        "Communications Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Finding relevant awareness days for mission. Avoiding performative posting that rings hollow. Standing out when 10,000 orgs post same day. Connecting observance to actual organizational work. Overcrowded hashtags on awareness days. Limited time to plan for 50+ annual observances. Authenticity vs. visibility.",
+      "best_practices": "Only post for directly relevant observances. Connect to your actual work (not generic support). Include concrete action or resource. Use official hashtag plus your own. Avoid trauma exploitation or tragedy porn. Show what your org is doing, not just awareness. 80-120 words. Post early in day (6-8am) before feed floods.",
+      "why_it_matters": "Relevant awareness days provide ready-made hooks and hashtag visibility. Authentic posts on these days can reach 3-5x normal audience. Demonstrates organizational alignment with movements. Builds credibility in issue area. Opportunistic posting damages reputation."
+    },
+    {
+      "id": "impact-stat-visualization",
+      "title": "Impact Statistic Visualization Caption",
+      "description": "Caption for data/infographic social post",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": [
+        "data visualization",
+        "impact",
+        "statistics"
+      ],
+      "role": [
+        "Communications Manager",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Making numbers compelling not boring. Providing context for statistics. Balancing data credibility with emotional appeal. Creating accessible data visualizations. Avoiding chart junk. Ensuring mobile-readable graphics. Citing sources appropriately in social context.",
+      "best_practices": "Start caption with insight, not number ('This changed everything' vs. 'We served 500'). Explain what number means. 60-80 words caption. Alt text for accessibility. Cite source in caption or image. Use round numbers when possible. Compare to relatable reference (X = population of [town]). Best format: single striking stat on simple background.",
+      "why_it_matters": "Data posts generate 2x saves/shares vs. text-only. Impact visualization builds donor confidence and credibility. Data posts perform particularly well on LinkedIn (professional audience). Good data storytelling increases transparency and trust. Accessible data serves all audiences."
+    },
+    {
+      "id": "newsletter-program-updates",
+      "title": "Newsletter - Program Updates",
+      "description": "Monthly or quarterly newsletter to donor/supporter list",
+      "category": "communications",
+      "subcategory": "Email Marketing",
+      "tags": [
+        "newsletter",
+        "email",
+        "engagement"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Balancing program updates with fundraising. Finding newsworthy content each month. Avoiding boring donor base. Managing unsubscribes. Writing for multiple audiences (donors, volunteers, partners). Time to write and design. Unclear optimal frequency. Measuring engagement beyond open rates.",
+      "best_practices": "3-5 sections: program highlight with metrics, upcoming events, donor spotlight or thank-you, CTA (volunteer/donate/event). Scannable format with headers and bullet points. 400-600 words total. Personal tone from ED or staff. Mobile-optimized. Include photos. Send monthly or quarterly consistently. Subject line: specific not generic.",
+      "why_it_matters": "Newsletters maintain donor engagement between asks. Regular communication increases retention by 20-30%. Multi-touch communication builds relationship depth. Newsletters are stewardship vehicles that set up future asks. Consistent newsletters demonstrate organizational stability and professionalism."
+    },
+    {
+      "id": "email-subject-line-generator",
+      "title": "Email Subject Line Generator",
+      "description": "Compelling subject lines for fundraising/program emails",
+      "category": "communications",
+      "subcategory": "Email Marketing",
+      "tags": [
+        "email",
+        "subject lines",
+        "open rates"
+      ],
+      "role": [
+        "Communications Manager",
+        "Development Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Subject lines make or break open rates but are hardest to write. Balancing curiosity with clarity. Avoiding spam triggers. Testing is time-intensive. Unclear what works (emoji? personalization? length?). Standing out in crowded inbox. Pressure to be clever. What works for corporate doesn't work for nonprofit.",
+      "best_practices": "Keep under 50 characters (mobile preview). Lead with benefit or curiosity. Avoid spam words (free, urgent, act now). Test with/without emoji. Personalization (name/location) can increase opens 20%. Use action words. A/B test when possible. Provide 5-7 variations for one email. Nonprofit voice: authentic over clever.",
+      "why_it_matters": "Subject lines determine whether email gets read at all. Every 10% increase in open rate significantly boosts campaign revenue. Average nonprofit email open rate is 25% - subject lines are primary lever to improve. Small tweaks can double performance."
+    },
+    {
+      "id": "welcome-email-series",
+      "title": "Welcome Email Series for New Subscribers",
+      "description": "3-5 email onboarding sequence for new list signups",
+      "category": "communications",
+      "subcategory": "Email Marketing",
+      "tags": [
+        "welcome series",
+        "onboarding",
+        "automation"
+      ],
+      "role": [
+        "Communications Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Making strong first impression on new subscribers. Educating without overwhelming. Deciding what to include (mission, programs, ways to help). Optimal email frequency and sequence length. Setting up automation in limited email platform. Balancing welcome with soft ask. High unsubscribe risk if too aggressive.",
+      "best_practices": "Email 1 (immediate): Welcome, thank you, mission intro, set expectations. Email 2 (Day 3): Impact story or program highlight. Email 3 (Day 7): Ways to get involved (volunteer, follow social, attend event). Optional Email 4 (Day 14): Soft giving opportunity. Each 200-300 words. Warm, conversational. Automate sequence.",
+      "why_it_matters": "Welcome series subscribers are 3-5x more engaged than those without. First week sets long-term engagement pattern. Automated sequences save time while improving donor journey. Quality onboarding increases list retention by 30%+. This is highest-leverage email sequence."
+    },
+    {
+      "id": "event-invitation-email",
+      "title": "Event Invitation Email",
+      "description": "Compelling invitation to organizational event",
+      "category": "communications",
+      "subcategory": "Email Marketing",
+      "tags": [
+        "events",
+        "invitation",
+        "registration"
+      ],
+      "role": [
+        "Communications Manager",
+        "Program Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Getting busy people to commit to calendar. Competing with countless other events. Unclear how many invitation touches needed. Balancing details with brevity. Conveying value proposition quickly. Managing RSVPs and follows-ups. Knowing when to resend or give up.",
+      "best_practices": "Compelling why in first paragraph. What/when/where prominent. Registration CTA above fold. Include calendar add link. Mention special guests or unique elements. FOMO without pressure. 200-300 words. Send 3-4 weeks out, reminder 1 week before, final push 48 hours before. Segment invites (board vs. donors vs. community).",
+      "why_it_matters": "Email drives 60-70% of event registrations. Multi-touch invitation sequences double attendance. Event attendance builds relationship depth and giving likelihood. Well-attended events demonstrate organizational vitality. Email timing dramatically affects registration rates."
+    },
+    {
+      "id": "impact-report-email",
+      "title": "Impact Report Email",
+      "description": "Email sharing annual or quarterly impact metrics",
+      "category": "communications",
+      "subcategory": "Email Marketing",
+      "tags": [
+        "impact",
+        "reporting",
+        "stewardship"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Making data compelling not dry. Deciding which metrics matter to donors vs. funders vs. community. Translating outcomes to impact. Balancing transparency about challenges with positive framing. Creating visual hierarchy for scannable reading. Linking to full report without overwhelming. Timing release strategically.",
+      "best_practices": "Lead with headline stat or outcome. Use 3-5 key metrics with context. Include beneficiary voice or story. Acknowledge challenges honestly. Thank donors for making it possible. Link to full report PDF. 400-600 words. Visual format (infographic-style if possible). Send after fiscal year-end or campaign close.",
+      "why_it_matters": "Impact reporting is critical stewardship and increases retention 15-25%. Demonstrates accountability and transparency. Builds donor confidence for next ask. Organizations that report impact regularly see higher giving levels. Impact communication differentiates you from organizations that go silent between asks."
+    },
+    {
+      "id": "blog-post-program-data",
+      "title": "Blog Post from Program Data",
+      "description": "Narrative blog post translating program metrics to story",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "blog",
+        "storytelling",
+        "impact"
+      ],
+      "role": [
+        "Communications Manager",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Making data engaging not boring. Balancing statistics with narrative. Finding blog-worthy angles from routine work. SEO optimization while maintaining voice. Consistent blogging with limited capacity. Getting program staff to provide content. Measuring blog impact (is anyone reading?).",
+      "best_practices": "Lead with story or surprising stat. Use subheadings for scannable reading. Include 1-2 data visualizations or photos. 600-900 words. Conversational tone. Link to related programs/donate page. Include beneficiary voice (with consent). SEO: relevant keywords, meta description, alt text. Post monthly minimum.",
+      "why_it_matters": "Blogs provide evergreen content for email/social sharing. SEO drives organic website traffic and donor discovery. Blogs demonstrate thought leadership and program quality. Well-written impact blogs are powerful stewardship tools. Blog content can be repurposed across channels."
+    },
+    {
+      "id": "impact-story-framework",
+      "title": "Impact Story/Testimonial Framework",
+      "description": "Template for collecting and writing beneficiary stories",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "storytelling",
+        "testimonials",
+        "impact"
+      ],
+      "role": [
+        "Communications Manager",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Getting consent from beneficiaries. Protecting privacy while telling compelling stories. Avoiding exploitation or poverty porn. Making stories specific without identifying details. Training program staff to collect stories. Balancing anonymity with authenticity. Legal/ethical concerns about minors.",
+      "best_practices": "Structure: Before/challenge, intervention, after/outcome. Use first-person quotes. Include specific details and metrics. Get written consent. Offer pseudonyms or first-name-only. Avoid deficit framing ('helpless' narrative). Focus on agency and dignity. 300-500 words. Review with subject before publishing.",
+      "why_it_matters": "Stories build emotional connection that statistics cannot. Donor recall of stories is 5-10x higher than data alone. Ethical storytelling respects beneficiary dignity and builds trust. Quality stories are highest-performing fundraising and awareness content. Stories make abstract impact concrete and memorable."
+    },
+    {
+      "id": "press-release-program-launch",
+      "title": "Press Release - New Program Launch",
+      "description": "Media announcement for program milestone or launch",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "press release",
+        "media",
+        "PR"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Getting media attention in crowded news cycle. Writing in journalistic style vs. org voice. Including newsworthy angle vs. self-promotion. Finding local hook. Getting ED quotes that don't sound canned. Knowing which media to target. Low pickup rate is discouraging.",
+      "best_practices": "Headline: newsworthy, concise, active voice. Lead paragraph: who, what, when, where, why. Program details in paragraphs 2-3. Quote from ED (human, not corporate). Stats or impact metrics. Boilerplate about org. Contact info. 400-600 words. Follow AP style. Distribute via email to targeted media list.",
+      "why_it_matters": "Media coverage provides third-party credibility and reach beyond paid advertising. Local news coverage can reach 10,000-50,000 people in target area. Press releases position ED as community thought leader. Media attention drives website traffic and donor interest. Strategic PR builds organizational visibility."
+    },
+    {
+      "id": "annual-report-copy",
+      "title": "Annual Report Copy - Executive Summary",
+      "description": "Opening message/ED letter for annual report",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "annual report",
+        "leadership",
+        "impact"
+      ],
+      "role": [
+        "Executive Director",
+        "Communications Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Balancing accomplishments with humility. Addressing challenges without seeming incompetent. Finding fresh angle for annual tradition. Writing for multiple audiences (donors, funders, board, community). Coordinating with design/data team. Meeting IRS/legal requirements. Distinguishing from last year.",
+      "best_practices": "Reflect on year's theme or defining moment. Highlight 3-5 major accomplishments with metrics. Acknowledge challenges or pivots honestly. Thank supporters. Look ahead to next year briefly. Personal, reflective tone (ED voice). 400-600 words. Include headshot. Avoid clich\u00e9s ('unprecedented', 'now more than ever').",
+      "why_it_matters": "ED message sets tone for entire annual report. This is often the only section donors read fully. Message demonstrates leadership and strategic thinking to funders. Quality ED message builds organizational credibility. Annual report is critical stewardship and transparency tool."
+    },
+    {
+      "id": "website-homepage-copy",
+      "title": "Website Homepage Copy",
+      "description": "Clear, compelling homepage messaging",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "website",
+        "homepage",
+        "messaging"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Explaining complex mission in 10 seconds. Writing for multiple audiences (donors, beneficiaries, volunteers, partners). Balancing clarity with inspiration. SEO requirements vs. human readability. Limited space above fold. Achieving board consensus on messaging. Avoiding jargon while being specific.",
+      "best_practices": "Hero headline: clear mission in 8-12 words. Subheading: who you serve and how (1 sentence). Above fold: 3 clear CTAs (donate, learn more, get help). Concise sections: mission, impact (1-2 key stats), programs, get involved. Benefit-focused language. Active voice. Total homepage copy: 300-500 words. Mobile-first. Plain language (grade 6-8).",
+      "why_it_matters": "Homepage determines whether visitors engage or bounce (avg 5-10 second decision). Clear messaging can double conversion rates. Homepage is most-visited page and first impression for most donors. SEO-optimized homepage drives organic discovery. Quality homepage copy directly impacts donations and volunteer signups."
+    },
+    {
+      "id": "case-study-template",
+      "title": "Case Study Template",
+      "description": "Structured program success story for grants/marketing",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "case study",
+        "impact",
+        "evidence"
+      ],
+      "role": [
+        "Program Manager",
+        "Development Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Collecting sufficient data for credible case. Maintaining privacy/confidentiality. Demonstrating causation vs. correlation. Writing authoritatively without overstating. Coordinating program staff input. Making academic research accessible. Balancing detail with readability.",
+      "best_practices": "Structure: Challenge/context, Intervention (what you did), Results (outcomes + outputs), Analysis (why it worked), Lessons learned. Include metrics and qualitative data. Use visuals (charts, photos with consent). 800-1500 words. Citations for claims. Suitable for grants or marketing. Clear methodology.",
+      "why_it_matters": "Case studies demonstrate program effectiveness with rigor funders expect. Strong case studies win competitive grants. Case studies build organizational learning and knowledge. Quality case studies can be repurposed for proposals, marketing, and training. Evidence-based case studies differentiate you from anecdote-only organizations."
+    },
+    {
+      "id": "about-page-copy",
+      "title": "About Page Copy",
+      "description": "Organizational story and mission for About page",
+      "category": "communications",
+      "subcategory": "Content Creation",
+      "tags": [
+        "about page",
+        "mission",
+        "website"
+      ],
+      "role": [
+        "Communications Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Condensing years of history without boring readers. Balancing mission purity with practical description. Writing for multiple audiences. Deciding what to include (timeline, leadership, programs). Achieving board/leadership consensus. Avoiding generic nonprofit language. Staying under 500 words when there's so much to say.",
+      "best_practices": "Lead with mission statement (1-2 sentences). Origin story (why founded, 1 paragraph). What you do now (programs, 1 paragraph). Impact snapshot (1-3 key metrics). Values or approach. 400-600 words total. Include: year founded, service area, people served. Link to programs, team, annual report. Avoid jargon. Specific over vague.",
+      "why_it_matters": "About page is 2nd-most visited page after homepage. Donors research organizations before giving - About page builds credibility. Media and partners check About page for background. Quality About page improves donation conversion by 20-30%. This is where mission clarity demonstrates organizational focus."
+    },
+    {
+      "id": "logic-model-framework",
+      "title": "Logic Model Framework",
+      "description": "Visual program theory with inputs/activities/outputs/outcomes",
+      "category": "programs",
+      "subcategory": "Program Planning",
+      "tags": [
+        "logic model",
+        "planning",
+        "evaluation"
+      ],
+      "role": [
+        "Program Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Understanding logic model vs. theory of change. Differentiating outputs from outcomes. Making assumptions explicit. Getting too detailed vs. too vague. Coordinating team input. Using logic model after creation (not just grant requirement). Updating as program evolves.",
+      "best_practices": "Start with outcomes (desired change), work backward to activities and inputs. Clear if-then logic. Measurable indicators for each level. Include assumptions. One page visual. Inputs \u2192 Activities \u2192 Outputs \u2192 Short-term Outcomes \u2192 Long-term Outcomes \u2192 Impact. Review and revise quarterly.",
+      "why_it_matters": "Logic models clarify program theory and evaluation framework. Required for most federal grants and many foundations. Good logic models improve program design and resource allocation. They align team around shared outcomes. Logic models make program assumptions testable and accountable."
+    },
+    {
+      "id": "theory-of-change-narrative",
+      "title": "Theory of Change Narrative",
+      "description": "Written explanation of how program creates change",
+      "category": "programs",
+      "subcategory": "Program Planning",
+      "tags": [
+        "theory of change",
+        "strategy",
+        "planning"
+      ],
+      "role": [
+        "Program Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Articulating implicit assumptions. Connecting activities to long-term change. Addressing attribution vs. contribution. Writing clearly for non-experts. Grounding in evidence without being academic. Achieving team consensus on theory. Distinguishing from logic model.",
+      "best_practices": "Start with ultimate goal/impact. Explain pathways of change. Identify preconditions for success. State assumptions explicitly. Use 'if-then' framing. Connect to research/evidence. Address what could prevent success. 500-800 words. Diagram helpful. Revise as you learn.",
+      "why_it_matters": "Theory of change demonstrates strategic thinking to funders. Makes program assumptions testable. Improves program design and pivots. Required for systems change and advocacy work. Strong ToC shows organizational maturity. Helps staff understand how their work connects to mission."
+    },
+    {
+      "id": "program-description-grant",
+      "title": "Program Description for Grant",
+      "description": "Concise program overview for grant applications",
+      "category": "programs",
+      "subcategory": "Program Planning",
+      "tags": [
+        "program description",
+        "grants",
+        "overview"
+      ],
+      "role": [
+        "Program Manager",
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Condensing complex program to 1-2 paragraphs. Balancing detail with brevity. Making program sound innovative but proven. Describing target population appropriately. Avoiding jargon while being specific. Tailoring to funder while staying accurate. Writing for evaluators who don't know your field.",
+      "best_practices": "Who: target population size and characteristics. What: specific activities and services. When: frequency, duration, timeline. Where: service delivery location. How: methodology or model. Why: problem addressed and anticipated outcomes. 200-400 words. Active voice. Evidence-based language. Match funder priorities.",
+      "why_it_matters": "Program descriptions sell your work to funders. Clear descriptions demonstrate program clarity and capacity. Vague programs don't get funded. Description is often recycled across applications - quality version saves hours. Strong program descriptions can be adapted for marketing, website, and board reports."
+    },
+    {
+      "id": "outcome-framework-from-data",
+      "title": "Outcome Framework from Data",
+      "description": "Evaluation framework organizing program metrics into outcomes",
+      "category": "programs",
+      "subcategory": "Impact Measurement",
+      "tags": [
+        "outcomes",
+        "evaluation",
+        "data"
+      ],
+      "role": [
+        "Program Manager"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Differentiating outputs (what we did) from outcomes (change we created). Choosing meaningful vs. measurable indicators. Limited evaluation capacity/expertise. Stakeholder disagreement on what matters. Attribution vs. contribution challenge. Data collection burden on staff. Organizing messy data into coherent framework.",
+      "best_practices": "Identify short, medium, long-term outcomes. Select 3-5 indicators per outcome level. Define data sources and collection methods. Set realistic targets. Include both quantitative and qualitative measures. Align with logic model. Keep framework to 2 pages. Review annually.",
+      "why_it_matters": "Outcome frameworks focus evaluation on what matters. Clear frameworks prevent data collection for data's sake. Funders increasingly require outcome reporting. Good frameworks improve program design. They enable evidence-based decision making. Frameworks demonstrate evaluation capacity to funders."
+    },
+    {
+      "id": "impact-narrative-from-stats",
+      "title": "Impact Narrative from Statistics",
+      "description": "Compelling story translating program data to human impact",
+      "category": "programs",
+      "subcategory": "Impact Measurement",
+      "tags": [
+        "impact",
+        "storytelling",
+        "data"
+      ],
+      "role": [
+        "Program Manager",
+        "Communications Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Making numbers meaningful not abstract. Balancing data credibility with emotional appeal. Translating outcomes to donor-friendly language. Finding human story behind statistics. Avoiding overstatement or manipulation. Contextualizing results (good or bad?). Writing for mixed audiences (funders want rigor, donors want story).",
+      "best_practices": "Lead with human story or surprising stat. Translate numbers to context ('served 500 students = entire Johnson Elementary'). Include both quantitative outcomes and qualitative change. Cite methodology briefly. Acknowledge limitations honestly. Use 'we' language. 400-600 words. Mix data visualization with narrative.",
+      "why_it_matters": "Impact narratives make data accessible and memorable. Donors give to impact stories, not spreadsheets. Narratives demonstrate accountability and transparency. Good impact writing builds donor confidence and increases retention. Funders reuse your impact narratives in their own reporting."
+    },
+    {
+      "id": "evaluation-report-template",
+      "title": "Evaluation Report Template",
+      "description": "Standard format for program evaluation findings",
+      "category": "programs",
+      "subcategory": "Impact Measurement",
+      "tags": [
+        "evaluation",
+        "reporting",
+        "assessment"
+      ],
+      "role": [
+        "Program Manager"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Organizing complex findings clearly. Writing for multiple audiences (staff, board, funders). Balancing rigor with accessibility. Presenting negative findings constructively. Translating evaluator reports to nonprofit language. Limited evaluation expertise in-house. Time to write comprehensive report.",
+      "best_practices": "Structure: Executive summary, program overview, methodology, findings (organized by outcome area), discussion/interpretation, recommendations, appendices. Use visuals (charts, graphs). Both quantitative and qualitative data. Acknowledge limitations. Recommendations specific and actionable. 10-25 pages typical. Executive summary critical (2 pages).",
+      "why_it_matters": "Evaluation reports demonstrate learning orientation and accountability. Required for grant renewals and reporting. Good reports inform program improvement. Reports build funder confidence in organizational capacity. Quality reporting can unlock multi-year funding. Reports capture institutional knowledge."
+    },
+    {
+      "id": "success-story-beneficiary",
+      "title": "Success Story from Beneficiary Data",
+      "description": "Individual change story with program participation data",
+      "category": "programs",
+      "subcategory": "Impact Measurement",
+      "tags": [
+        "success story",
+        "testimonial",
+        "outcomes"
+      ],
+      "role": [
+        "Program Manager",
+        "Communications Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Protecting beneficiary privacy while telling compelling story. Getting consent for story sharing. Avoiding exploitative or deficit-based narratives. Making individual story representative of program impact. Balancing honest struggle with hopeful resolution. Finding willing participants. Legal/ethical complexity with minors or vulnerable populations.",
+      "best_practices": "Get written consent with clear usage explanation. Use pseudonym or first-name only. Structure: before, during, after program. Include participant voice (quotes). Show agency (they drove change, program supported). Specific outcomes with data. 400-600 words. Photo optional with explicit consent. Avoid trauma details or identifying information.",
+      "why_it_matters": "Human stories connect donors emotionally to mission. Success stories validate program effectiveness. Stories are most-shared and remembered content. Ethical storytelling builds trust. Success stories demonstrate outcome achievement for funders. Quality stories can be repurposed across grant applications, website, and appeals."
+    },
+    {
+      "id": "donor-impact-report",
+      "title": "Donor Impact Report (What Their Gift Accomplished)",
+      "description": "Personalized stewardship showing donor's specific impact",
+      "category": "programs",
+      "subcategory": "Impact Measurement",
+      "tags": [
+        "stewardship",
+        "donor impact",
+        "reporting"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Attributing outcomes to specific donor gift. Creating personalized reports at scale. Gathering program data for development team. Balancing impact claims with honest attribution. Making report feel special not form letter. Coordinating timeline (quarterly vs. annual). Limited capacity for customization.",
+      "best_practices": "Open with thanks and gift amount. Connect their gift to specific program or outcome. Use concrete metrics ('your $5,000 provided 50 students with...'). Include beneficiary story or photo (with consent). Brief program update. No immediate ask. 1-2 pages. Send 3-6 months post-gift. Personalize with their name throughout.",
+      "why_it_matters": "Impact reporting is highest-value stewardship activity. Donors who receive impact reports give 30-50% more in subsequent gifts. Reports build trust and demonstrate accountability. Quality reporting differentiates professional organizations. Impact reports set up renewal asks naturally."
+    },
+    {
+      "id": "volunteer-role-description",
+      "title": "Volunteer Role Description",
+      "description": "Clear volunteer opportunity posting",
+      "category": "programs",
+      "subcategory": "Volunteer Management",
+      "tags": [
+        "volunteers",
+        "recruitment",
+        "roles"
+      ],
+      "role": [
+        "Program Manager",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Finding volunteers is challenging - need welcoming but clear expectations. Avoiding legal language while covering liability. Balancing 'easy to join' with 'serious commitment'. Competing with paid opportunities. Limited staff time for onboarding. Unclear time commitments scare people away or create mismatched expectations.",
+      "best_practices": "Role title (specific not vague). Brief overview (2-3 sentences). Responsibilities (bulleted, 4-6 items). Time commitment (hours/week, duration). Required vs. preferred qualifications. Impact statement (what volunteers accomplish). Application process. Welcoming tone. Remove unnecessary barriers. 200-300 words.",
+      "why_it_matters": "Clear role descriptions attract better-matched volunteers and reduce turnover. Specificity increases applications by showing professionalism. Good descriptions respect volunteer time and build trust. Volunteer recruitment and retention directly impacts program capacity. Quality descriptions reduce onboarding time and mis fits."
+    },
+    {
+      "id": "volunteer-recruitment-messaging",
+      "title": "Volunteer Recruitment Messaging",
+      "description": "Compelling volunteer recruitment campaign copy",
+      "category": "programs",
+      "subcategory": "Volunteer Management",
+      "tags": [
+        "volunteers",
+        "recruitment",
+        "marketing"
+      ],
+      "role": [
+        "Program Manager",
+        "Communications Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "People are busy - hard to cut through. Overcoming 'I don't have time' objection. Making volunteering sound meaningful not transactional. Attracting diverse volunteers. Competing with paid work/family time. Avoiding guilt appeals. Unclear what value proposition matters to prospects.",
+      "best_practices": "Lead with impact/benefit not organizational need. Specific opportunities with clear time commitments. Use testimonials from current volunteers. Address common objections (time, skills, logistics). Multiple entry points (one-time, ongoing, virtual, skilled). Emphasize community and purpose. Include photos of real volunteers. 200-400 words. Clear CTA.",
+      "why_it_matters": "Volunteers extend organizational capacity exponentially. Quality recruitment messaging can increase volunteer applications by 40-60%. Good messaging attracts skilled volunteers who become donors and advocates. Volunteer recruitment is pipeline for board members. Strong volunteer programs reduce paid staff needs."
+    },
+    {
+      "id": "volunteer-onboarding-checklist",
+      "title": "Volunteer Onboarding Checklist",
+      "description": "Structured onboarding process for new volunteers",
+      "category": "programs",
+      "subcategory": "Volunteer Management",
+      "tags": [
+        "onboarding",
+        "volunteers",
+        "training"
+      ],
+      "role": [
+        "Program Manager",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Onboarding feels time-intensive when staff is stretched. Balancing thorough training with volunteer eagerness to start. Ensuring compliance (background checks, waivers) without being offputting. Consistency across multiple volunteer coordinators. Making volunteers feel valued not processed. Tracking completion.",
+      "best_practices": "Pre-start: background check, waiver, emergency contact. Day 1: welcome, mission overview, program intro, policies, safety. Week 1: shadow experienced volunteer, meet team. Month 1: check-in, feedback session. Include contact info, FAQs, key policies. Checklist format. Digital or printable. Welcome kit with swag/materials.",
+      "why_it_matters": "Quality onboarding increases volunteer retention from 30% to 70%+. First impressions set engagement pattern. Good onboarding reduces staff supervision burden. Systematic onboarding ensures compliance and risk management. Volunteers who feel prepared stay longer and do better work."
+    },
+    {
+      "id": "volunteer-thank-you-letter",
+      "title": "Volunteer Thank You Letter",
+      "description": "Appreciation letter for volunteer service",
+      "category": "programs",
+      "subcategory": "Volunteer Management",
+      "tags": [
+        "volunteers",
+        "appreciation",
+        "stewardship"
+      ],
+      "role": [
+        "Program Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Volunteers give time not money but deserve equal recognition. Differentiating appreciation for different volunteer levels. Making thank-you meaningful not perfunctory. Volume (may have 100+ volunteers). Limited budget for volunteer appreciation. Coordinating recognition across program areas.",
+      "best_practices": "Specific thanks for their particular contribution. Quantify their impact (hours served, people helped). Personal examples of difference they made. No ask for money. Mention community they joined. Informal but warm tone. 150-250 words. Hand-signed by program lead. Annual summary for long-term volunteers.",
+      "why_it_matters": "Volunteers who feel valued return and recruit others. Appreciation increases volunteer retention by 50%+. Well-thanked volunteers become donors (30-40% conversion). Volunteer testimonials are powerful recruitment tools. Recognition builds volunteer community and culture."
+    },
+    {
+      "id": "event-concept-brainstorm",
+      "title": "Event Concept and Theme Brainstorm",
+      "description": "Creative ideation for fundraising or community event",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "events",
+        "brainstorming",
+        "fundraising"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Event fatigue (same gala every year). Differentiating from competitors' events. Balancing creativity with logistics/budget. Uncertain revenue potential. Board wants 'fun' but staff needs 'profitable'. Unclear what appeals to target audience. Risk aversion prevents innovation.",
+      "best_practices": "Start with goal (fundraising, awareness, community building). Define audience and capacity constraints. Brainstorm 10-15 concepts. Evaluate each on: alignment to mission, revenue potential, staff capacity, differentiation, audience appeal. Consider hybrid/virtual. Include low-cost options. Involve multiple perspectives. Select top 3 for deeper exploration.",
+      "why_it_matters": "Event success begins with strong concept aligned to audience and capacity. Well-chosen events can generate 15-30% of annual revenue. Poor event concepts waste months of planning. Creative events differentiate organization and build buzz. Right event attracts new donors and deepens existing relationships."
+    },
+    {
+      "id": "event-planning-timeline",
+      "title": "Event Planning Timeline",
+      "description": "Month-by-month planning checklist with deadlines",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "events",
+        "timeline",
+        "project management"
+      ],
+      "role": [
+        "Development Director",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Coordinating 50+ tasks across 6 months. Unclear what typical timelines are. Vendor deadlines sneak up. Marketing starts too late. Volunteer recruitment lags. Sponsor solicitation rushed. Details fall through cracks. First-time event = guessing at timeline.",
+      "best_practices": "Work backward from event date. T-6 months: concept, budget, venue. T-4 months: sponsors, save-the-dates. T-3 months: registration open, marketing launch. T-2 months: auction items, run-of-show. T-1 month: final logistics, confirmations. Include: task, owner, deadline, status. Template for recurring events. Build in buffer time.",
+      "why_it_matters": "Detailed timelines prevent last-minute scrambling and forgotten tasks. Timeline discipline increases event quality and reduces staff stress. Early planning improves sponsorship revenue (starts 4-6 months out). Timeline templates save hundreds of hours on recurring events."
+    },
+    {
+      "id": "event-invitation-copy",
+      "title": "Event Invitation Copy",
+      "description": "Compelling invitation text for event marketing",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "events",
+        "invitation",
+        "marketing"
+      ],
+      "role": [
+        "Communications Manager",
+        "Development Director"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Getting calendar commitment from busy people. Conveying event value proposition quickly. Balancing details with brevity. Making mission-focused event sound appealing not obligatory. Differentiating from 20 other nonprofit events. Unclear whether to emphasize impact, fun, or networking. Writing for print and digital.",
+      "best_practices": "Lead with benefit or hook. What/when/where in first paragraph. Why attend (speakers, experience, impact, community). Registration CTA prominent. Dress code, parking, accessibility info. Include sponsor logos. 200-300 words for formal invitation. Brief version for email (100-150 words). Personal touch from host if possible.",
+      "why_it_matters": "Invitation quality directly affects attendance. Well-written invitations can increase RSVPs 30-50%. Invitation sets tone and expectations for event experience. Professional invitations reflect organizational brand. Strong invitations make sponsors feel valued."
+    },
+    {
+      "id": "sponsorship-package-description",
+      "title": "Sponsorship Package Description",
+      "description": "Tiered sponsorship opportunities for event or program",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "sponsorship",
+        "fundraising",
+        "events"
+      ],
+      "role": [
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Pricing tiers appropriately (too high scares off, too low leaves money). Creating meaningful differentiation between levels. Balancing sponsor recognition with mission focus. Corporate sponsors want logo visibility, program needs money. Limited sponsor prospects in small communities. Unclear what benefits matter to sponsors.",
+      "best_practices": "3-5 tiers with clear naming ($10K Presenting, $5K Platinum, $2.5K Gold, $1K Silver, $500 Bronze). List specific benefits per tier (logo placement, tickets, recognition). Include in-kind sponsorship option. Emphasize mission impact not just marketing. Deadline for inclusion in print materials. One-pager with visuals. Audience demographics.",
+      "why_it_matters": "Sponsorships can cover 40-60% of event costs before ticket sales. Quality sponsorship packages command higher prices. Clear tiers make it easy for sponsors to say yes. Well-structured packages create multi-year sponsor relationships. Sponsorship revenue is often easier to secure than individual donations."
+    },
+    {
+      "id": "event-run-of-show",
+      "title": "Event Run-of-Show Script",
+      "description": "Minute-by-minute event timeline and speaking notes",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "events",
+        "script",
+        "production"
+      ],
+      "role": [
+        "Program Manager",
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Coordinating complex timing across program elements. Keeping event moving without feeling rushed. Writing speaking notes that sound natural not scripted. Coordinating MC, speakers, AV, catering. Building in buffer time. Making program engaging not boring. Managing unexpected delays.",
+      "best_practices": "Minute-by-minute timeline. Include: time, duration, what's happening, who's responsible, AV needs, key talking points. Start with arrivals/registration. Build in 10% buffer time. Note critical moments (appeal, testimonial). Include music/video cues. Technical notes for AV team. Backup plans. Distribute day before event.",
+      "why_it_matters": "Run-of-show prevents chaos and missed elements. Professional execution builds donor confidence. Timing discipline shows respect for attendees. Good run-of-show enables smooth delegation to volunteers. Well-planned events are repeatable and scalable. Run-of-show is template for future events."
+    },
+    {
+      "id": "post-event-thank-you",
+      "title": "Post-Event Thank You Email",
+      "description": "Appreciation and impact recap after event",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "events",
+        "thank you",
+        "follow-up"
+      ],
+      "role": [
+        "Development Director",
+        "Communications Manager"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Sending timely thank-you while exhausted post-event. Balancing gratitude with impact reporting. Segmenting different attendee types (sponsors, donors, volunteers, guests). Making thank-you feel personal at scale. Including ask vs. pure stewardship. Following up on event commitments.",
+      "best_practices": "Send within 48-72 hours. Thank for attendance specifically. Share event outcome ($ raised, people reached). Include 1-2 photos. Highlight special moments. Thank sponsors prominently. No immediate big ask (okay to mention ongoing ways to help). 150-250 words. Personal sign-off from ED or event chair. Segment: sponsors get different message.",
+      "why_it_matters": "Post-event follow-up determines whether attendee becomes donor/volunteer. Timely thanks increases next-event attendance by 40%. Event momentum creates giving opportunity. Quality follow-up converts one-time attendees to sustained supporters. Thank-you completes event experience and builds relationship."
+    },
+    {
+      "id": "event-marketing-campaign",
+      "title": "Event Marketing Campaign Plan",
+      "description": "Multi-channel promotion strategy for event",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "events",
+        "marketing",
+        "promotion"
+      ],
+      "role": [
+        "Communications Manager",
+        "Development Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Driving registrations without budget for paid ads. Coordinating email, social, print, partner outreach. Knowing when to start promotion (too early = forgotten, too late = calendars full). Creating urgency without seeming desperate. Measuring what's working. Limited capacity for multi-channel campaigns.",
+      "best_practices": "Start 6-8 weeks before event. Multi-channel: email series (save-date, invitation, reminders), social media (weekly posts), partner outreach, local media. Create urgency: early bird pricing, limited seats, speaker announcements. Use event hashtag. Leverage sponsors and board for amplification. Track registration source. Final push 1 week out.",
+      "why_it_matters": "Marketing determines attendance and revenue. Multi-channel campaigns drive 2-3x more registrations. Early planning allows sponsor activation. Strategic marketing fills room and builds waitlists. Good marketing creates FOMO and community excitement. Marketing plan ensures nothing falls through cracks."
+    },
+    {
+      "id": "virtual-event-engagement",
+      "title": "Virtual Event Engagement Strategy",
+      "description": "Tactics to keep online attendees engaged",
+      "category": "events",
+      "subcategory": "Event Planning",
+      "tags": [
+        "virtual events",
+        "engagement",
+        "online"
+      ],
+      "role": [
+        "Program Manager",
+        "Communications Manager"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Zoom fatigue is real. Difficult to maintain energy virtually. Limited engagement tools. Technical difficulties. People multitask during virtual events. Hard to build community online. Unclear how to handle chat/Q&A. Making ask without in-person emotion.",
+      "best_practices": "Keep under 90 minutes total. Interactive elements every 10-15 minutes (polls, chat prompts, breakouts). Professional production (good audio, lighting, slides). Chat moderator essential. Send engagement prep email (download Zoom, test link). Use reaction emojis and chat. Recording available post-event. Virtual donation button. Follow-up engagement crucial.",
+      "why_it_matters": "Virtual events expand geographic reach and reduce costs. Hybrid/virtual is now expected option. Engaged virtual attendees give at similar rates to in-person. Virtual events allow participation for people with disabilities, caregiving, or distance barriers. Quality virtual events demonstrate organizational competence with technology."
+    },
+    {
+      "id": "board-meeting-agenda",
+      "title": "Board Meeting Agenda",
+      "description": "Structured agenda for effective board meetings",
+      "category": "board",
+      "subcategory": "Board Management",
+      "tags": [
+        "board",
+        "meetings",
+        "governance"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Balancing strategic discussion with operational updates. Keeping meetings under time limit. Board members unprepared or distracted. Too many reports, not enough dialogue. Uncertain what requires board approval vs. FYI. Legal/fiduciary items feel boring. Building agenda without ED controlling entirely.",
+      "best_practices": "Consent agenda for routine items. Strategic discussion first (when energy high). Time limits per item. Pre-read materials sent 1 week advance. Action items clearly marked (vote, discussion, FYI). Executive session if needed. Include breaks for 2+ hour meetings. Follow Robert's Rules loosely. Template format for consistency.",
+      "why_it_matters": "Quality agendas drive productive meetings and good governance. Board engagement depends on meeting effectiveness. Strategic discussion time directly impacts organizational direction. Efficient meetings respect volunteer board time. Good agendas demonstrate ED organizational skills."
+    },
+    {
+      "id": "board-meeting-minutes",
+      "title": "Board Meeting Minutes Template",
+      "description": "Compliant record of board decisions and discussions",
+      "category": "board",
+      "subcategory": "Board Management",
+      "tags": [
+        "board",
+        "minutes",
+        "documentation"
+      ],
+      "role": [
+        "Operations Coordinator",
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Legal compliance without verbatim transcription. Capturing decisions without editorial. Documenting sensitive discussions appropriately. Speed of drafting while accurate. Getting board approval before next meeting. Balancing detail with readability. Knowing what must be recorded vs. optional.",
+      "best_practices": "Record: attendees, motions/votes, decisions, key discussion points (not verbatim). Action items with owners. Executive session noted (no details). Attach reports referenced. Formal but readable. Draft within 1 week, approve at next meeting. Archive securely. Follow legal requirements for retention. Template format.",
+      "why_it_matters": "Minutes are legal record of nonprofit governance. Required for audits, grants, and legal compliance. Minutes protect board and organization legally. Quality minutes enable institutional memory. Minutes demonstrate governance professionalism to funders. Poor minutes create liability and confusion."
+    },
+    {
+      "id": "board-recruitment-profile",
+      "title": "Board Recruitment Profile",
+      "description": "Ideal board member skills/attributes for recruitment",
+      "category": "board",
+      "subcategory": "Board Development",
+      "tags": [
+        "board recruitment",
+        "governance",
+        "diversity"
+      ],
+      "role": [
+        "Executive Director",
+        "Board Chair"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Identifying needed skills without seeming exclusionary. Balancing diversity goals with fundraising needs. Recruiting busy professionals to volunteer role. Unclear how to describe time commitment honestly. Board skeptical of strategic recruitment vs. friend referrals. Avoiding tokenization when seeking diversity.",
+      "best_practices": "Skills matrix of current board gaps (finance, legal, HR, fundraising, program expertise). Demographics/perspective needs. Time commitment explicit (meetings, committee, fundraising). Give/get requirement clear. Board term length. Selection criteria. Ideal: 3-5 priority profiles. Review annually. Inclusive language.",
+      "why_it_matters": "Strategic recruitment builds capable, diverse boards. Skills-based recruitment improves governance quality. Clear profiles make ask easier and set expectations. Intentional recruitment increases board diversity. Quality board members are organization's most valuable asset. Board composition directly affects fundraising capacity and organizational sustainability."
+    },
+    {
+      "id": "board-orientation-guide",
+      "title": "Board Orientation Guide Outline",
+      "description": "Comprehensive onboarding for new board members",
+      "category": "board",
+      "subcategory": "Board Development",
+      "tags": [
+        "board",
+        "onboarding",
+        "training"
+      ],
+      "role": [
+        "Executive Director",
+        "Board Chair"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "New board members feel overwhelmed by information. Limited time for thorough orientation. Balancing organizational history with current priorities. Ensuring legal/fiduciary understanding. Activating new members quickly. Consistent orientation across recruitment cohorts. Updating materials as organization evolves.",
+      "best_practices": "Cover: mission/history, programs, financials, governance structure, board role/responsibilities, committee options, expectations (meetings, fundraising), key policies, current strategic priorities. Mix formats: written materials, orientation session, board mentor, site visit. Provide board handbook. 2-4 hour time investment. Schedule within first month.",
+      "why_it_matters": "Quality orientation activates board members faster and more effectively. Oriented boards fundraise better and govern more confidently. Orientation sets expectations and prevents future conflicts. Good onboarding increases board retention. Systematic orientation demonstrates organizational professionalism."
+    },
+    {
+      "id": "strategic-planning-framework",
+      "title": "Strategic Planning Framework",
+      "description": "Structure for 3-5 year strategic plan development",
+      "category": "board",
+      "subcategory": "Strategic Planning",
+      "tags": [
+        "strategic planning",
+        "strategy",
+        "governance"
+      ],
+      "role": [
+        "Executive Director",
+        "Board Chair"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Facilitating board/staff consensus on direction. Balancing ambition with realism. Making plan actionable not shelf-ware. Coordinating stakeholder input. Facilitator costs. Time intensity (6-12 months). Addressing sacred cows. Translating vision to operational reality.",
+      "best_practices": "Process: environmental scan, stakeholder input, SWOT, vision/mission review, goal-setting (3-5 goals), strategies, metrics, action planning. 12-18 month timeline. Engage board, staff, beneficiaries, funders. Facilitate professionally if possible. Output: 10-15 page plan. Annual review and adjustment. Build in accountability.",
+      "why_it_matters": "Strategic plans align board and staff around shared direction. Required by many funders. Planning process builds ownership and commitment. Quality plans guide resource allocation and program decisions. Plans demonstrate organizational maturity. Strategic clarity improves fundraising and program effectiveness."
+    },
+    {
+      "id": "executive-summary-long-report",
+      "title": "Executive Summary from Long Report",
+      "description": "1-2 page distillation of comprehensive report for busy readers",
+      "category": "board",
+      "subcategory": "Leadership Communication",
+      "tags": [
+        "executive summary",
+        "reporting",
+        "communication"
+      ],
+      "role": [
+        "Executive Director",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Condensing 20-50 pages to 2 without losing critical info. Deciding what to cut. Writing for readers who won't read full report. Making summary standalone yet enticing deeper read. Multiple audiences (board, funders, staff). Balancing comprehensiveness with brevity.",
+      "best_practices": "Structure: purpose/context, key findings (3-5 bullets), recommendations (prioritized), next steps. Lead with most important content. Use subheadings. Include critical data/chart. Avoid jargon. 1-2 pages max (500-800 words). Write after completing full report. Standalone comprehension essential.",
+      "why_it_matters": "Executive summaries determine whether reports get read and acted upon. Busy board members often read only executive summary. Quality summaries demonstrate strategic thinking. Summaries enable faster decision-making. Well-written summaries get shared widely while full reports don't."
+    },
+    {
+      "id": "board-presentation-talking-points",
+      "title": "Board Presentation Talking Points",
+      "description": "Speaking notes for ED presenting to board",
+      "category": "board",
+      "subcategory": "Leadership Communication",
+      "tags": [
+        "board presentation",
+        "talking points",
+        "communication"
+      ],
+      "role": [
+        "Executive Director"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Presenting complex information concisely. Anticipating board questions and pushback. Balancing confidence with humility. Reading room and adjusting on fly. Managing board member who dominates. Staying on time. Making ask (approval, resources) clearly. Nerves presenting to boss (board).",
+      "best_practices": "Bullet-point format not full script. Key messages for each slide/section. Anticipated questions with answers. Time allocation per section. What you're asking for (decision, input, FYI) explicit. Practice with staff first. Visual aids complement, don't replace talking points. Include transitions. Note where to pause for questions.",
+      "why_it_matters": "Quality presentations build board confidence in ED leadership. Clear communication drives better decisions. Talking points keep presentation focused and on-time. Preparation reduces anxiety and improves delivery. Board presentations are critical leadership moments that shape board/ED relationship."
+    },
+    {
+      "id": "committee-charter",
+      "title": "Committee Charter",
+      "description": "Mandate and structure for board committee",
+      "category": "board",
+      "subcategory": "Board Management",
+      "tags": [
+        "committees",
+        "governance",
+        "structure"
+      ],
+      "role": [
+        "Executive Director",
+        "Board Chair"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Defining committee scope without overlap. Balancing committee autonomy with board authority. Recruiting committee members when board is small. Ensuring committees actually function vs. exist on paper. Coordinating staff support for committees. Preventing committee drift or mission creep.",
+      "best_practices": "Include: committee purpose, authority level, composition (size, chair, terms), responsibilities, meeting frequency, reporting relationship to board, staff liaison. Board approval required. Review annually. 1-2 pages. Common committees: Executive, Finance/Audit, Governance, Fundraising/Development, Programs.",
+      "why_it_matters": "Committees enable deeper work than full board meetings allow. Clear charters prevent scope confusion and conflicts. Quality committee structure increases board effectiveness. Committees develop future board leaders. Well-functioning committees reduce ED burden and improve governance."
+    },
+    {
+      "id": "job-description-template",
+      "title": "Job Description Template",
+      "description": "Professional JD for nonprofit staff position",
+      "category": "operations",
+      "subcategory": "Human Resources",
+      "tags": [
+        "hiring",
+        "HR",
+        "job description"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Attracting talent at nonprofit salaries. Writing inclusively without seeming vague. Balancing specificity with flexibility. Avoiding discrimination while stating real requirements. Unclear market rate for role. Wearing many hats makes scope unclear. Creating urgency in slow hiring market.",
+      "best_practices": "Role overview, key responsibilities (5-8 bullets), qualifications (required vs. preferred separate), salary range, benefits, location/remote options. Inclusive language ('encouraged to apply'). Mission-driven framing. Avoid unnecessary degree requirements. 400-600 words. Include EEO statement. Emphasize mission/impact over prestige.",
+      "why_it_matters": "Quality job descriptions attract better candidates and reduce mis-hires. Inclusive JDs expand talent pool 30-50%. Clear expectations reduce employee turnover. Professional JDs signal organizational competence. Good JDs are template for performance reviews. Hiring mistakes are extremely costly for small organizations."
+    },
+    {
+      "id": "employee-handbook-section",
+      "title": "Employee Handbook Section",
+      "description": "Policy section for staff handbook (PTO, remote work, etc.)",
+      "category": "operations",
+      "subcategory": "Human Resources",
+      "tags": [
+        "policies",
+        "handbook",
+        "HR"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Advanced",
+      "pain_points": "Legal compliance across multiple jurisdictions. Balancing flexibility with clarity. Writing policies that are enforceable but humane. Addressing all scenarios without 100-page handbook. Keeping current with changing laws. Board approval process. Accessible language vs. legal precision.",
+      "best_practices": "Clear policy statement. Rationale/purpose. Eligibility/scope. Procedures. Exceptions process. Review date. Legal review essential (at least annually). Plain language. 1-2 pages per section. Common sections: PTO, sick leave, remote work, harassment, grievance, confidentiality. Acknowledgment form.",
+      "why_it_matters": "Employee handbooks protect organization legally and create consistent staff experience. Clear policies prevent conflicts and misunderstandings. Handbooks are required for best-practice HR. Quality policies improve staff retention. Handbook gaps create legal liability. Professional handbook demonstrates organizational maturity."
+    },
+    {
+      "id": "performance-review-template",
+      "title": "Performance Review Template",
+      "description": "Structured annual employee evaluation form",
+      "category": "operations",
+      "subcategory": "Human Resources",
+      "tags": [
+        "performance",
+        "evaluation",
+        "management"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "EDs uncomfortable with performance management. Balancing positive feedback with areas for growth. Making reviews developmental not punitive. Documenting performance issues appropriately. Tying reviews to compensation with limited budget. Time-intensive with multiple reports. Subjectivity vs. objective criteria.",
+      "best_practices": "Competency-based (3-5 areas aligned to role). Rating scale (exceeds/meets/developing). Self-assessment component. Goal review from last year + new goals. Comments sections. Strengths and development areas. 90-day check-ins for new hires. Annual for established staff. 1-hour discussion minimum. Documentation essential.",
+      "why_it_matters": "Regular performance reviews improve staff development and retention. Reviews create accountability and clarity. Documented reviews protect organization in termination situations. Quality reviews increase employee engagement. Reviews align individual work with organizational strategy. Review process demonstrates professional management."
+    },
+    {
+      "id": "remote-work-policy",
+      "title": "Remote Work Policy",
+      "description": "Guidelines for flexible/hybrid/remote work arrangements",
+      "category": "operations",
+      "subcategory": "Human Resources",
+      "tags": [
+        "remote work",
+        "policy",
+        "flexibility"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Post-COVID expectations for flexibility. Balancing remote work with program needs (some roles can't be remote). Equity across positions. Maintaining culture and collaboration remotely. Technology/security requirements. Performance management when not co-located. Board skepticism of remote productivity.",
+      "best_practices": "Define eligible positions. Core hours vs. flexible hours. Remote/hybrid/in-office options by role. Communication expectations (response times, meetings). Technology requirements and support. Workspace and ergonomics. Performance standards same regardless of location. Trial periods. Review annually. 2-3 pages.",
+      "why_it_matters": "Remote work flexibility is now competitive requirement for talent attraction. Clear policies prevent resentment and confusion. Remote options expand geographic talent pool. Flexibility improves work-life balance and retention. Hybrid policies are cost-neutral or reduce office overhead. Policy clarity protects organization and employees."
+    },
+    {
+      "id": "standard-operating-procedure",
+      "title": "Standard Operating Procedure (SOP)",
+      "description": "Step-by-step process documentation for recurring task",
+      "category": "operations",
+      "subcategory": "Operations",
+      "tags": [
+        "SOP",
+        "documentation",
+        "processes"
+      ],
+      "role": [
+        "Operations Coordinator",
+        "Program Manager"
+      ],
+      "difficulty": "Intermediate",
+      "pain_points": "Institutional knowledge lives in one person's head. Staff turnover creates crisis when no documentation. Time-intensive to write when you could just do the task. Keeping SOPs current as processes evolve. Balancing detail with usability. Knowing what needs SOP vs. what doesn't.",
+      "best_practices": "Purpose of procedure. When/how often performed. Who performs. Step-by-step instructions (numbered). Screenshots/visuals helpful. Tools/systems used. Troubleshooting common issues. Related procedures. Version date and owner. Review annually. Store centrally (shared drive). 1-3 pages typical.",
+      "why_it_matters": "SOPs protect against staff turnover knowledge loss. Documentation enables delegation and training. SOPs reduce errors and increase consistency. Quality SOPs demonstrate operational maturity to funders. SOPs allow vacation coverage without crisis. Process documentation saves massive time during transitions."
+    },
+    {
+      "id": "new-employee-onboarding",
+      "title": "New Employee Onboarding Checklist",
+      "description": "Structured onboarding for new staff members",
+      "category": "operations",
+      "subcategory": "Human Resources",
+      "tags": [
+        "onboarding",
+        "HR",
+        "training"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "New hires overwhelmed and unclear where to start. Inconsistent onboarding creates confusion. Critical tasks forgotten (IT access, key card, tax forms). Training while maintaining own workload. Making new hire feel welcomed not processed. Coordinating cross-team introductions. Measuring onboarding effectiveness.",
+      "best_practices": "Pre-start: IT setup, workspace, handbook. Day 1: welcome, paperwork, mission intro, team meetings. Week 1: systems training, program overview, policies. Month 1: goal-setting, check-ins. Include: task, owner, deadline. Welcome letter from ED. Onboarding buddy. 30/60/90-day check-ins. Feedback loops.",
+      "why_it_matters": "Quality onboarding increases retention from 50% to 80%+. First week sets engagement and performance patterns. Systematic onboarding ensures compliance and reduces legal risk. Good onboarding accelerates time-to-productivity. New hires who feel supported become long-term employees. Onboarding demonstrates organizational culture and professionalism."
+    },
+    {
+      "id": "meeting-agenda-template",
+      "title": "Meeting Agenda Template",
+      "description": "Structured agenda for effective staff meetings",
+      "category": "operations",
+      "subcategory": "Operations",
+      "tags": [
+        "meetings",
+        "productivity",
+        "management"
+      ],
+      "role": [
+        "Executive Director",
+        "Operations Coordinator"
+      ],
+      "difficulty": "Beginner",
+      "pain_points": "Meetings run long and accomplish little. Unclear objectives lead to rambling. People show up unprepared. Too much time on updates, not enough on problem-solving. Getting staff to actually follow agenda. Meeting fatigue. Balancing inclusion with efficiency.",
+      "best_practices": "Clear objective for meeting. Time-boxed agenda items. Pre-reads noted. Decision vs. discussion vs. FYI labeled. Include breaks for 90+ min meetings. Parking lot for off-topic items. Action items with owners at end. Send agenda 2-3 days advance. Weekly staff meetings 60-90 min max. Template ensures consistency.",
+      "why_it_matters": "Meetings consume 25-40% of staff time. Quality agendas can cut meeting time 30% while improving outcomes. Structured meetings respect staff time and boost morale. Good agendas enable participation and decision-making. Meeting discipline signals organizational professionalism. Reducing meeting waste is immediate productivity gain."
+    }
+  ]
+}

@@ -100,3 +100,10 @@ Notice the difference: specific structure, nonprofit context (team size, content
 Using all the context provided above, write an elite-level prompt for "{TOPIC}" that nonprofit professionals at {TARGET_USER} level can use to accomplish their work effectively.
 
 The prompt should be 150-300 words, highly structured, incorporate nonprofit best practices, and produce outputs that save significant time while maintaining quality.
+
+**IMPORTANT OUTPUT FORMAT:**
+- Output ONLY the prompt text itself, ready to use
+- Do NOT include any preamble, explanation, or commentary
+- Do NOT include phrases like "Here's the prompt:" or "Here is..."
+- Do NOT wrap in markdown code blocks (no ```)
+- Just output the raw prompt text that a user would copy and paste into ChatGPT/Claude
