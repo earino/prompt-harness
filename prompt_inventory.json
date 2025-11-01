@@ -1,0 +1,69 @@
+{
+  "prompts": [
+    {
+      "id": "thank-you-mid-level-donor",
+      "title": "Thank You Letter for Mid-Level Donors",
+      "description": "Appreciative letter for donors giving $100-$999",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": ["thank you", "stewardship", "mid-level donor", "donor retention"],
+      "role": ["Development Director", "Executive Director"],
+      "difficulty": "Beginner",
+      "user_context": "Development Directors managing 100-500 donors, need to personalize mid-level acknowledgments but lack time to write from scratch. Mid-level donors ($100-999) are critical for annual fund but often overlooked between major gifts and small donations.",
+      "best_practices": "Send within 48 hours, acknowledge upgrade from previous gift if applicable, specific impact metrics for their giving level, personal touch from leadership, no immediate ask, subtle stewardship path indicated.",
+      "pain_points": "Too many thank-yous to write individually, struggle to differentiate from small donor letters, want to make mid-level donors feel valued without major gift treatment, need to encourage retention and future upgrades."
+    },
+    {
+      "id": "lapsed-donor-reengagement",
+      "title": "Lapsed Donor Re-Engagement Email",
+      "description": "Warm outreach to donors who haven't given in 12-24 months",
+      "category": "fundraising",
+      "subcategory": "Donor Communications",
+      "tags": ["lapsed donor", "re-engagement", "donor retention", "email"],
+      "role": ["Development Director"],
+      "difficulty": "Intermediate",
+      "user_context": "Development Directors trying to win back donors who gave 12-24 months ago. These donors have gone silent but aren't hostile. Need approach that acknowledges the gap without guilt-tripping, reminds them of impact, and provides easy path back.",
+      "pain_points": "Unsure how to acknowledge the lapse without making donor feel bad, difficult to re-establish connection after time gap, concerned about seeming desperate or pushy, want to remind of impact without sounding transactional.",
+      "best_practices": "Acknowledge the gap warmly, share update on organization progress since last gift, no guilt or pressure, emphasize 'we miss you' not 'we need money', provide specific easy action (not just 'donate again'), keep tone positive and forward-looking, use 'we'd love to see you back' language."
+    },
+    {
+      "id": "grant-needs-statement",
+      "title": "Grant Needs Statement",
+      "description": "Compelling needs statement for grant proposals",
+      "category": "fundraising",
+      "subcategory": "Grant Writing",
+      "tags": ["grant writing", "needs statement", "proposal", "funding"],
+      "role": ["Development Director", "Executive Director", "Program Manager"],
+      "difficulty": "Intermediate",
+      "user_context": "Grant writers creating proposals for foundation or government funding. Needs statement is critical section that establishes urgency and justifies funding request. Must be data-driven but emotionally compelling, demonstrate organizational understanding of problem, position solution as evidence-based.",
+      "best_practices": "Lead with compelling statistic or story, quantify the problem with local data, demonstrate root cause understanding, show gap between current state and desired state, establish urgency without melodrama, connect to funder priorities, cite credible sources, avoid jargon, 300-500 words typical.",
+      "pain_points": "Balancing emotion with data, finding compelling local statistics, demonstrating need without seeming hopeless, differentiating from other applicants, proving organizational capacity to address need, tailoring to specific funder priorities."
+    },
+    {
+      "id": "social-media-impact-post-linkedin",
+      "title": "LinkedIn Post - Program Impact",
+      "description": "Professional LinkedIn post highlighting program outcomes and impact",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": ["LinkedIn", "social media", "impact", "program results", "professional"],
+      "role": ["Communications Manager", "Executive Director"],
+      "difficulty": "Beginner",
+      "user_context": "Communications Managers maintaining organizational LinkedIn presence. Need to post 2-3x weekly but lack time to write from scratch. LinkedIn audience is professional: potential donors, board members, partners, funders. Posts need to be impact-focused, professional but warm, appropriate for business network.",
+      "best_practices": "Lead with impact statistic or outcome, tell story in first 2 lines (hook for feed), use 3-5 short paragraphs, include call-to-action, tag partners when appropriate, use 3-5 relevant hashtags, professional tone but not corporate, 100-200 words optimal for engagement.",
+      "pain_points": "Standing out in feed, finding right tone for professional network, quantifying impact succinctly, avoiding corporate jargon while staying professional, consistent posting with small team, repurposing content appropriately."
+    },
+    {
+      "id": "volunteer-role-description",
+      "title": "Volunteer Role Description",
+      "description": "Clear, appealing role description for volunteer recruitment",
+      "category": "programs",
+      "subcategory": "Volunteer Management",
+      "tags": ["volunteer", "recruitment", "role description", "program volunteers"],
+      "role": ["Program Manager", "Operations Coordinator"],
+      "difficulty": "Beginner",
+      "user_context": "Program Managers recruiting volunteers for program delivery. Need clear role descriptions that attract qualified volunteers but don't overwhelm. Must balance being specific (so volunteers know what to expect) with being welcoming (not intimidating). Often recruiting for multiple roles simultaneously.",
+      "best_practices": "Clear role title, 2-3 sentence overview, specific responsibilities (bulleted), time commitment specified, required vs preferred qualifications separate, impact statement (what volunteers accomplish), welcoming tone, remove barriers to entry, 200-300 words.",
+      "pain_points": "Finding volunteers is hard, need to be welcoming but clear about commitment, avoiding scary legal language while covering liability, balancing 'easy to join' with 'serious commitment', competing with for-profit opportunities, limited staff time to onboard."
+    }
+  ]
+}
