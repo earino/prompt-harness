@@ -51,11 +51,13 @@ class PromptGenerator:
             Generated prompt text
         """
         # Fill in meta-prompt template
+        target_user = ', '.join(prompt_spec.get('role', [])) if isinstance(prompt_spec.get('role'), list) else prompt_spec.get('role', 'Nonprofit Professional')
+
         meta_prompt = self.meta_prompt_template.format(
             TOPIC=prompt_spec['title'],
             CATEGORY=prompt_spec['category'],
             SUBCATEGORY=prompt_spec.get('subcategory', ''),
-            TARGET_USER=prompt_spec['target_user'],
+            TARGET_USER=target_user,
             DIFFICULTY=prompt_spec['difficulty'],
             USER_CONTEXT=prompt_spec.get('user_context', ''),
             BEST_PRACTICES=prompt_spec.get('best_practices', ''),

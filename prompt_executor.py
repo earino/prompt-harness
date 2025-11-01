@@ -12,6 +12,7 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 load_dotenv()
 
@@ -124,7 +125,7 @@ class PromptExecutor:
         scenario_id: str
     ) -> List[Dict]:
         """
-        Execute a prompt through all configured models.
+        Execute a prompt through all configured models (in parallel).
 
         Args:
             prompt_text: The filled prompt
@@ -133,18 +134,29 @@ class PromptExecutor:
         Returns:
             List of outputs from all models
         """
+        print(f"  Executing all models in parallel...", flush=True)
+
         outputs = []
 
-        for model_config in MODELS:
-            print(f"  Executing {model_config['display_name']}...", end=" ", flush=True)
-            result = self.execute_prompt(prompt_text, scenario_id, model_config)
+        # Execute all models in parallel using ThreadPoolExecutor
+        with ThreadPoolExecutor(max_workers=len(MODELS)) as executor:
+            # Submit all tasks
+            future_to_model = {
+                executor.submit(self.execute_prompt, prompt_text, scenario_id, model_config): model_config
+                for model_config in MODELS
+            }
 
-            if result['success']:
-                print(f"✓ ({result['tokens']['total']} tokens, ${result['cost_usd']:.4f})")
-            else:
-                print(f"✗ Error: {result.get('error', 'Unknown')}")
+            # Collect results as they complete
+            for future in as_completed(future_to_model):
+                model_config = future_to_model[future]
+                result = future.result()
 
-            outputs.append(result)
+                if result['success']:
+                    print(f"    ✓ {model_config['display_name']}: {result['tokens']['total']} tokens, ${result['cost_usd']:.4f}")
+                else:
+                    print(f"    ✗ {model_config['display_name']}: {result.get('error', 'Unknown')}")
+
+                outputs.append(result)
 
         return outputs
 

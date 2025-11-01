@@ -12,6 +12,7 @@ import re
 from pathlib import Path
 from typing import Dict, List
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from scenario_generator import ScenarioGenerator
 from prompt_executor import PromptExecutor
@@ -131,17 +132,17 @@ class PromptHarness:
 
         print(f"\n✓ Total cost: ${total_cost:.4f}")
 
-        # Step 4: Evaluate outputs
-        print(f"\nStep 4: Evaluating {len(all_outputs)} outputs...")
-        for output in all_outputs:
+        # Step 4: Evaluate outputs (in parallel)
+        print(f"\nStep 4: Evaluating {len(all_outputs)} outputs in parallel...")
+
+        def evaluate_single_output(output):
+            """Helper function for parallel evaluation"""
             if not output['success']:
-                continue
+                return output
 
             scenario = next((s for s in scenarios if s['id'] == output['scenario_id']), None)
             if not scenario:
-                continue
-
-            print(f"  Evaluating {output['model_display_name']} (Scenario: {scenario['name']})...", end=" ", flush=True)
+                return output
 
             evaluation = self.evaluator.evaluate_output(
                 prompt_text,
@@ -149,9 +150,22 @@ class PromptHarness:
                 output['content'],
                 category
             )
-
             output['evaluation'] = evaluation
-            print(f"✓ Score: {evaluation.get('overall_score', 'N/A')}/10")
+            return output
+
+        # Evaluate all outputs in parallel
+        with ThreadPoolExecutor(max_workers=9) as executor:
+            future_to_output = {
+                executor.submit(evaluate_single_output, output): output
+                for output in all_outputs if output['success']
+            }
+
+            for future in as_completed(future_to_output):
+                output = future_to_output[future]
+                result = future.result()
+                if result.get('evaluation'):
+                    scenario = next((s for s in scenarios if s['id'] == result['scenario_id']), None)
+                    print(f"    ✓ {result['model_display_name']} ({scenario['name'] if scenario else '?'}): {result['evaluation'].get('overall_score', 'N/A')}/10")
 
         # Step 5: Export results
         print(f"\nStep 5: Exporting results...")
