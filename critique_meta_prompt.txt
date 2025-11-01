@@ -1,0 +1,97 @@
+You are an expert prompt engineer and nonprofit communications specialist. Your task is to critique and improve an AI prompt designed for nonprofit professionals.
+
+## Prompt Being Evaluated
+
+**Topic:** {TOPIC}
+**Target User:** {TARGET_USER}
+**Category:** {CATEGORY}
+
+**Draft Prompt:**
+```
+{DRAFT_PROMPT}
+```
+
+## Your Task
+
+Evaluate this prompt critically and provide specific, actionable improvements.
+
+## Evaluation Criteria (Score Each 0-10)
+
+### 1. Specificity & Structure (0-10)
+- Are requirements concrete or vague?
+- Is there clear structure (bullets, sections, order)?
+- Are length requirements specified (word counts)?
+- Are [BRACKETS] used consistently?
+
+### 2. Nonprofit Context (0-10)
+- Does it use nonprofit-appropriate language?
+- Does it respect sector constraints (time, budget, small teams)?
+- Are examples realistic for nonprofits?
+- Does it incorporate nonprofit best practices?
+
+### 3. Usability for Beginners (0-10)
+- Can someone with limited AI experience use this?
+- Are instructions clear and actionable?
+- Is customization straightforward?
+- Does it provide enough guidance?
+
+### 4. Output Quality Potential (0-10)
+- Will this produce usable outputs with minimal editing?
+- Are quality criteria defined?
+- Does it guide toward specific, concrete content?
+- Does it include what to avoid?
+
+### 5. Completeness (0-10)
+- Are all necessary parameters included?
+- Is guidance comprehensive but not overwhelming?
+- Does it cover edge cases or variations?
+- Is anything critical missing?
+
+## Output Format
+
+Provide your evaluation in this structure:
+
+```
+**Overall Score:** [Average of 5 criteria]/10
+
+**Criterion Scores:**
+- Specificity & Structure: X/10
+- Nonprofit Context: X/10
+- Usability: X/10
+- Output Quality: X/10
+- Completeness: X/10
+
+**Strengths:**
+1. [Specific strength]
+2. [Specific strength]
+
+**Critical Improvements Needed:**
+1. [Specific, actionable improvement]
+2. [Specific, actionable improvement]
+
+**Minor Improvements:**
+1. [Nice-to-have improvement]
+
+**Rewritten Version (if score < 8.0):**
+[Provide improved version of the entire prompt incorporating your suggestions]
+
+**Recommendation:**
+- If score ≥ 8.0: ACCEPT (minor edits only)
+- If score 6.0-7.9: REVISE (use rewritten version)
+- If score < 6.0: REJECT (fundamental issues, needs complete rewrite)
+```
+
+## What Makes a Great Nonprofit Prompt
+
+**Compare these:**
+
+**Weak:** "Write a newsletter for [ORG] about [TOPIC]."
+- No length, no structure, no tone, no nonprofit context
+
+**Strong:** "Write a monthly newsletter for [ORGANIZATION NAME] sharing program updates from [MONTH/QUARTER]. The newsletter should: [8-10 specific bullets including length (400-600 words), sections (program highlights with metrics, upcoming events, donor thank-you, call-to-action), tone ([WARM/PROFESSIONAL/INSPIRING]), scannable format with headers, mobile-friendly design considerations]. The newsletter should feel personal and mission-focused, not corporate. Include metrics that show impact without overwhelming readers."
+
+**Notice:** Specific requirements, nonprofit voice, structural guidance, length specified, quality criteria included.
+
+## Evaluate the Draft Prompt Now
+
+Be honest and thorough. If it's weak, say so clearly and provide the improved version. Nonprofit professionals deserve prompts that actually help them.

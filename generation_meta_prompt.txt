@@ -1,0 +1,102 @@
+You are an elite prompt engineer specializing in creating AI prompts for nonprofit professionals. Your task is to write a prompt that will help nonprofit staff accomplish their work more effectively using AI tools (ChatGPT, Claude, Gemini).
+
+## Context for This Prompt
+
+**Topic:** {TOPIC}
+**Category:** {CATEGORY}
+**Subcategory:** {SUBCATEGORY}
+**Target User:** {TARGET_USER}
+**Difficulty:** {DIFFICULTY}
+
+**User Pain Points:**
+{PAIN_POINTS}
+
+**Nonprofit Best Practices for This Task:**
+{BEST_PRACTICES}
+
+**Why This Task Matters to Nonprofits:**
+{WHY_IT_MATTERS}
+
+## Your Task
+
+Create an elite-level AI prompt that will be published on nonprofit.ai. This prompt must be significantly better than generic business prompts—it should incorporate nonprofit sector knowledge, respect resource constraints, and produce outputs nonprofit staff can actually use with minimal editing.
+
+## Requirements for the Prompt You Generate
+
+### 1. Structure and Clarity
+- Use clear [BRACKETED] fields for customization (e.g., [ORGANIZATION NAME], [AMOUNT], [TONE])
+- Provide specific guidance on length (word count ranges)
+- Define tone options clearly (FORMAL/WARM/CASUAL with explanations)
+- Include structural requirements (what sections, what order)
+
+### 2. Nonprofit-Specific Context
+- Incorporate sector language and norms
+- Address resource constraints (time, budget, small teams)
+- Reference nonprofit best practices
+- Use realistic nonprofit examples (not corporate)
+- Understand nonprofit audiences (donors, funders, beneficiaries, volunteers)
+
+### 3. Quality Criteria
+- Specify what makes a good output (concrete, not vague)
+- Include what to avoid (clichés, jargon, inappropriate tone)
+- Provide context on when/how to use this
+- Set appropriate length (not "as long as needed" but "250-350 words")
+
+### 4. Detailed Guidance
+- Break down complex requirements into bullets
+- Explain WHY certain elements matter
+- Provide examples within the prompt where helpful
+- Address common mistakes or pitfalls
+
+### 5. Usability for Beginners
+- Assume user has limited AI experience
+- Make [BRACKETS] obvious and consistent
+- Provide enough guidance that output rarely needs major revision
+- But not so prescriptive it's inflexible
+
+## Output Format
+
+Write the prompt in this exact structure for consistency with the site:
+
+```
+[Brief intro sentence setting context - 1 sentence]
+
+The [content type] should:
+
+- [Specific requirement with detail]
+- [Specific requirement with detail]
+- [Continue with 8-12 detailed bullet points]
+- [Include word count requirement]
+- [Include tone options: [TONE] with explanation]
+- [Include who signs/authors if relevant]
+
+[One paragraph of additional context about quality, what to avoid, or key principles]
+```
+
+## Examples of What Makes This Elite
+
+**Weak prompt (avoid this):**
+"Create a social media calendar for [ORG]. Include posts for [PLATFORMS]. Make it engaging."
+
+**Elite prompt (do this):**
+"Create a month-long social media content calendar for [ORGANIZATION NAME] for [MONTH/SEASON].
+
+The calendar should:
+- Cover platforms: [FACEBOOK/INSTAGRAM/LINKEDIN/X] - specify which apply
+- Plan for [2-3/3-5/5-7] posts per week total across platforms
+- Organize by week with specific post dates
+- Include for each post: platform, content idea, caption template (50-100 words), suggested image/visual type, best posting time, relevant hashtags
+- Mix content types following the 60-30-10 rule: 60% educational/impact stories, 30% behind-the-scenes/community, 10% direct asks
+- Incorporate these campaigns or key dates: [CAMPAIGNS/EVENTS]
+- Use [WARM/PROFESSIONAL/INSPIRING] organizational voice
+- Account for capacity: realistic posting frequency for team of [TEAM SIZE]
+
+The calendar should provide enough detail that a Communications Manager can batch-create content efficiently, while remaining flexible enough to adapt to real-time opportunities or responses."
+
+Notice the difference: specific structure, nonprofit context (team size, content ratio), platform guidance, realistic expectations.
+
+## Generate the Elite Prompt Now
+
+Using all the context provided above, write an elite-level prompt for "{TOPIC}" that nonprofit professionals at {TARGET_USER} level can use to accomplish their work effectively.
+
+The prompt should be 150-300 words, highly structured, incorporate nonprofit best practices, and produce outputs that save significant time while maintaining quality.

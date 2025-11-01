@@ -1,0 +1,17 @@
+{
+  "prompts": [
+    {
+      "id": "social-media-content-calendar",
+      "title": "Social Media Content Calendar",
+      "description": "Monthly content calendar for multiple platforms",
+      "category": "communications",
+      "subcategory": "Social Media",
+      "tags": ["content calendar", "social media", "planning", "strategy"],
+      "role": ["Communications Manager"],
+      "difficulty": "Intermediate",
+      "pain_points": "Communications Managers are responsible for 4-5 social platforms with limited support. Content creation from scratch is time-consuming. Need to plan ahead but also stay flexible for timely content. Struggle to maintain consistent posting frequency across multiple platforms. Lack time for strategic content planning.",
+      "best_practices": "Follow 60-30-10 content ratio (60% educational/impact, 30% community/behind-scenes, 10% asks). Post 2-3x/week on Facebook for orgs under 10K followers. Platform-specific optimization (LinkedIn professional, Instagram visual, etc.). Plan monthly but review weekly. Include mix of planned and responsive content. Use content themes to maintain consistency. Batch-create content when possible.",
+      "why_it_matters": "Consistent social media presence builds donor relationships and community engagement. 96% of nonprofits use Facebook but struggle with regular posting. Content calendars reduce last-minute scrambling and improve strategic messaging. Allows for better campaign integration and storytelling arcs."
+    }
+  ]
+}
