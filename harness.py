@@ -237,6 +237,12 @@ def main():
         default=3,
         help="Number of scenarios to generate per prompt (default: 3)"
     )
+    parser.add_argument(
+        "--parallel",
+        type=int,
+        default=1,
+        help="Number of prompts to process in parallel (default: 1, recommended: 5-10)"
+    )
 
     args = parser.parse_args()
 
@@ -249,8 +255,33 @@ def main():
         prompts = list(harness.prompts_dir.glob("*.md"))
         print(f"Found {len(prompts)} prompts to process")
 
-        for prompt_file in prompts:
-            harness.process_prompt(prompt_file.stem, args.scenarios)
+        if args.parallel > 1:
+            print(f"Processing {args.parallel} prompts in parallel...")
+
+            # Process prompts in parallel
+            with ThreadPoolExecutor(max_workers=args.parallel) as executor:
+                future_to_prompt = {
+                    executor.submit(harness.process_prompt, prompt_file.stem, args.scenarios): prompt_file.stem
+                    for prompt_file in prompts
+                }
+
+                completed = 0
+                for future in as_completed(future_to_prompt):
+                    prompt_slug = future_to_prompt[future]
+                    try:
+                        result = future.result()
+                        completed += 1
+                        if result:
+                            print(f"\n[{completed}/{len(prompts)}] Completed: {prompt_slug}")
+                        else:
+                            print(f"\n[{completed}/{len(prompts)}] Skipped: {prompt_slug}")
+                    except Exception as e:
+                        print(f"\n[{completed}/{len(prompts)}] ERROR processing {prompt_slug}: {e}")
+                        completed += 1
+        else:
+            # Sequential processing (original behavior)
+            for prompt_file in prompts:
+                harness.process_prompt(prompt_file.stem, args.scenarios)
     else:
         parser.print_help()
 

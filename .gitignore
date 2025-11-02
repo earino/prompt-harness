@@ -20,3 +20,5 @@ ENV/
 
 # OS
 .DS_Store
+*.log
+batch_ids.json
