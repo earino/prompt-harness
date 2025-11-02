@@ -81,6 +81,14 @@ class PromptHarness:
             print(f"Error: Prompt not found: {markdown_path}")
             return None
 
+        # Check if output already exists (skip logic)
+        output_file = self.outputs_dir / f"{prompt_slug}.json"
+        if output_file.exists():
+            print(f"\n{'='*60}")
+            print(f"Skipping: {prompt_slug} (output already exists)")
+            print(f"{'='*60}\n")
+            return None
+
         print(f"\n{'='*60}")
         print(f"Processing: {prompt_slug}")
         print(f"{'='*60}\n")

@@ -132,8 +132,8 @@ Respond ONLY with valid JSON in this exact format:
         values = scenario.get('values', {})
 
         for param, value in values.items():
-            # Replace [PARAM] with value
-            filled = filled.replace(f'[{param}]', value)
+            # Replace [PARAM] with value (convert to string if needed)
+            filled = filled.replace(f'[{param}]', str(value))
 
         return filled
 
