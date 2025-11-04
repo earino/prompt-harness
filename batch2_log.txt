@@ -1,0 +1,210 @@
+Processing 20 prompts...
+
+[1/20]
+
+============================================================
+Generating: Grant Final Report
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (4381 tokens, $0.0515)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0479)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to grant-final-report.md
+
+[2/20]
+
+============================================================
+Generating: Donor Prospect Research Brief
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3209 tokens, $0.0340)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0494)
+  → ACCEPTED (score 8.7/10)
+  ✓ Saved to donor-prospect-research.md
+
+[3/20]
+
+============================================================
+Generating: Cultivation Strategy Plan
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3341 tokens, $0.0359)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0462)
+  → ACCEPTED (score 8.7/10)
+  ✓ Saved to cultivation-strategy.md
+
+[4/20]
+  ⏭️  SKIPPING (already exists): Personalized Major Gift Proposal
+
+[5/20]
+  ⏭️  SKIPPING (already exists): Major Donor Meeting Prep Notes
+
+[6/20]
+
+============================================================
+Generating: LinkedIn Post - Program Impact
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3340 tokens, $0.0355)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0373)
+  → ACCEPTED (score 8.7/10)
+  ✓ Saved to linkedin-post-program-impact.md
+
+[7/20]
+
+============================================================
+Generating: Facebook Post - Event Announcement
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (2991 tokens, $0.0304)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0437)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6673 tokens, $0.0642)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.2/10, $0.0871)
+  ✓ IMPROVED (score 7.2 → 8.2/10)
+  ✓ Saved to facebook-post-event.md
+
+[8/20]
+
+============================================================
+Generating: Instagram Caption - Behind-the-Scenes
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3383 tokens, $0.0363)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.8/10, $0.0487)
+  → REFINING (initial score 7.8/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (8378 tokens, $0.0869)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0618)
+  ✓ IMPROVED (score 7.8 → 8.7/10)
+  ✓ Saved to instagram-caption-bts.md
+
+[9/20]
+
+============================================================
+Generating: X/Twitter Thread - Awareness Campaign
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3234 tokens, $0.0338)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0457)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to twitter-thread-awareness.md
+
+[10/20]
+  ⏭️  SKIPPING (already exists): Social Media Content Calendar
+
+[11/20]
+
+============================================================
+Generating: Hashtag Strategy for Campaign
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (2778 tokens, $0.0272)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0456)
+  → REFINING (initial score 0/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6379 tokens, $0.0590)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.2/10, $0.0343)
+  ✓ IMPROVED (score 0 → 8.2/10)
+  ✓ Saved to hashtag-strategy-campaign.md
+
+[12/20]
+  ⏭️  SKIPPING (already exists): Awareness Day Post (International Day of...)
+
+[13/20]
+
+============================================================
+Generating: Impact Statistic Visualization Caption
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3847 tokens, $0.0434)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0471)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (7229 tokens, $0.0707)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0646)
+  ✓ IMPROVED (score 7.2 → 8.7/10)
+  ✓ Saved to impact-stat-visualization.md
+
+[14/20]
+
+============================================================
+Generating: Newsletter - Program Updates
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (2969 tokens, $0.0302)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0391)
+  → ACCEPTED (score 8.7/10)
+  ✓ Saved to newsletter-program-updates.md
+
+[15/20]
+
+============================================================
+Generating: Email Subject Line Generator
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3882 tokens, $0.0438)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0434)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6401 tokens, $0.0609)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0926)
+  ✓ IMPROVED (score 7.2 → 8.7/10)
+  ✓ Saved to email-subject-line-generator.md
+
+[16/20]
+  ⏭️  SKIPPING (already exists): Welcome Email Series for New Subscribers
+
+[17/20]
+  ⏭️  SKIPPING (already exists): Event Invitation Email
+
+[18/20]
+  ⏭️  SKIPPING (already exists): Impact Report Email
+
+[19/20]
+
+============================================================
+Generating: Blog Post from Program Data
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (4210 tokens, $0.0489)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0503)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (7194 tokens, $0.0671)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0732)
+  ✗ No improvement (keeping original at 7.2/10)
+  ✓ Saved to blog-post-program-data.md
+
+[20/20]
+  ⏭️  SKIPPING (already exists): Impact Story/Testimonial Framework
+
+============================================================
+SUMMARY
+============================================================
+Total in inventory: 20
+Skipped (already exist): 8
+Processed: 12
+Average Score: 7.33/10
+
+⚠️  Low-scoring prompts (review needed):
+  - Hashtag Strategy for Campaign: 0/10

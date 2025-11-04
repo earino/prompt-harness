@@ -1,0 +1,132 @@
+Processing 20 prompts...
+
+[1/20]
+
+============================================================
+Generating: Sponsorship Package Description
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3966 tokens, $0.0450)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.2/10, $0.0427)
+  → ACCEPTED (score 8.2/10)
+  ✓ Saved to sponsorship-package-description.md
+
+[2/20]
+
+============================================================
+Generating: Event Run-of-Show Script
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3171 tokens, $0.0332)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.8/10, $0.0614)
+  → REFINING (initial score 7.8/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (8541 tokens, $0.0807)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0386)
+  ✗ No improvement (keeping original at 7.8/10)
+  ✓ Saved to event-run-of-show.md
+
+[3/20]
+
+============================================================
+Generating: Post-Event Thank You Email
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3375 tokens, $0.0362)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.2/10, $0.0487)
+  → ACCEPTED (score 8.2/10)
+  ✓ Saved to post-event-thank-you.md
+
+[4/20]
+  ⏭️  SKIPPING (already exists): Event Marketing Campaign Plan
+
+[5/20]
+  ⏭️  SKIPPING (already exists): Virtual Event Engagement Strategy
+
+[6/20]
+  ⏭️  SKIPPING (already exists): Board Meeting Agenda
+
+[7/20]
+  ⏭️  SKIPPING (already exists): Board Meeting Minutes Template
+
+[8/20]
+  ⏭️  SKIPPING (already exists): Board Recruitment Profile
+
+[9/20]
+  ⏭️  SKIPPING (already exists): Board Orientation Guide Outline
+
+[10/20]
+  ⏭️  SKIPPING (already exists): Strategic Planning Framework
+
+[11/20]
+
+============================================================
+Generating: Executive Summary from Long Report
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3539 tokens, $0.0388)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0418)
+  → REFINING (initial score 0/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6087 tokens, $0.0563)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0604)
+  ✓ IMPROVED (score 0 → 8.7/10)
+  ✓ Saved to executive-summary-long-report.md
+
+[12/20]
+  ⏭️  SKIPPING (already exists): Board Presentation Talking Points
+
+[13/20]
+  ⏭️  SKIPPING (already exists): Committee Charter
+
+[14/20]
+
+============================================================
+Generating: Job Description Template
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3809 tokens, $0.0428)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0447)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6211 tokens, $0.0567)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0646)
+  ✓ IMPROVED (score 7.2 → 8.3/10)
+  ✓ Saved to job-description-template.md
+
+[15/20]
+  ⏭️  SKIPPING (already exists): Employee Handbook Section
+
+[16/20]
+  ⏭️  SKIPPING (already exists): Performance Review Template
+
+[17/20]
+  ⏭️  SKIPPING (already exists): Remote Work Policy
+
+[18/20]
+  ⏭️  SKIPPING (already exists): Standard Operating Procedure (SOP)
+
+[19/20]
+  ⏭️  SKIPPING (already exists): New Employee Onboarding Checklist
+
+[20/20]
+  ⏭️  SKIPPING (already exists): Meeting Agenda Template
+
+============================================================
+SUMMARY
+============================================================
+Total in inventory: 20
+Skipped (already exist): 15
+Processed: 5
+Average Score: 6.28/10
+
+⚠️  Low-scoring prompts (review needed):
+  - Executive Summary from Long Report: 0/10

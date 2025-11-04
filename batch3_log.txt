@@ -1,0 +1,214 @@
+Processing 20 prompts...
+
+[1/20]
+
+============================================================
+Generating: Press Release - New Program Launch
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (4999 tokens, $0.0605)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0394)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to press-release-program-launch.md
+
+[2/20]
+
+============================================================
+Generating: Annual Report Copy - Executive Summary
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (2728 tokens, $0.0266)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0352)
+  → REFINING (initial score 0/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (5065 tokens, $0.0460)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0585)
+  ✓ IMPROVED (score 0 → 8.7/10)
+  ✓ Saved to annual-report-copy.md
+
+[3/20]
+  ⏭️  SKIPPING (already exists): Website Homepage Copy
+
+[4/20]
+
+============================================================
+Generating: Case Study Template
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3101 tokens, $0.0323)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0404)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to case-study-template.md
+
+[5/20]
+  ⏭️  SKIPPING (already exists): About Page Copy
+
+[6/20]
+
+============================================================
+Generating: Logic Model Framework
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3104 tokens, $0.0325)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 6.8/10, $0.0547)
+  → REFINING (initial score 6.8/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (7174 tokens, $0.0640)
+Step 2: Calling Claude to critique...
+  ✗ Error: Expecting value: line 535 column 1 (char 2937)
+  ✗ No improvement (keeping original at 6.8/10)
+  ✓ Saved to logic-model-framework.md
+
+[7/20]
+
+============================================================
+Generating: Theory of Change Narrative
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3208 tokens, $0.0339)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0455)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6197 tokens, $0.0561)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0510)
+  ✓ IMPROVED (score 7.2 → 8.7/10)
+  ✓ Saved to theory-of-change-narrative.md
+
+[8/20]
+
+============================================================
+Generating: Program Description for Grant
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3600 tokens, $0.0397)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0418)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to program-description-grant.md
+
+[9/20]
+
+============================================================
+Generating: Outcome Framework from Data
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3179 tokens, $0.0336)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0416)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (5846 tokens, $0.0533)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.8/10, $0.0615)
+  ✓ IMPROVED (score 7.2 → 7.8/10)
+  ✓ Saved to outcome-framework-from-data.md
+
+[10/20]
+  ⏭️  SKIPPING (already exists): Impact Narrative from Statistics
+
+[11/20]
+
+============================================================
+Generating: Evaluation Report Template
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (1180 tokens, $0.0035)
+
+[12/20]
+
+============================================================
+Generating: Success Story from Beneficiary Data
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (2880 tokens, $0.0288)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0413)
+  → ACCEPTED (score 8.7/10)
+  ✓ Saved to success-story-beneficiary.md
+
+[13/20]
+  ⏭️  SKIPPING (already exists): Donor Impact Report (What Their Gift Accomplished)
+
+[14/20]
+  ⏭️  SKIPPING (already exists): Volunteer Role Description
+
+[15/20]
+
+============================================================
+Generating: Volunteer Recruitment Messaging
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3012 tokens, $0.0309)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0454)
+  → REFINING (initial score 0/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (5774 tokens, $0.0496)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0809)
+  ✗ No improvement (keeping original at 0/10)
+  ✓ Saved to volunteer-recruitment-messaging.md
+
+[16/20]
+
+============================================================
+Generating: Volunteer Onboarding Checklist
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3046 tokens, $0.0313)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0453)
+  → REFINING (initial score 7.2/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6073 tokens, $0.0547)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.8/10, $0.0606)
+  ✓ IMPROVED (score 7.2 → 7.8/10)
+  ✓ Saved to volunteer-onboarding-checklist.md
+
+[17/20]
+
+============================================================
+Generating: Volunteer Thank You Letter
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3067 tokens, $0.0318)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0360)
+  → REFINING (initial score 0/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (6207 tokens, $0.0627)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.2/10, $0.0740)
+  ✓ IMPROVED (score 0 → 7.2/10)
+  ✓ Saved to volunteer-thank-you-letter.md
+
+[18/20]
+  ⏭️  SKIPPING (already exists): Event Concept and Theme Brainstorm
+
+[19/20]
+  ⏭️  SKIPPING (already exists): Event Planning Timeline
+
+[20/20]
+  ⏭️  SKIPPING (already exists): Event Invitation Copy
+
+============================================================
+SUMMARY
+============================================================
+Total in inventory: 20
+Skipped (already exist): 8
+Processed: 11
+Average Score: 5.64/10
+
+⚠️  Low-scoring prompts (review needed):
+  - Annual Report Copy - Executive Summary: 0/10
+  - Logic Model Framework: 6.8/10
+  - Volunteer Recruitment Messaging: 0/10
+  - Volunteer Thank You Letter: 0/10

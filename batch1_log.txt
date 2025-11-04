@@ -1,0 +1,118 @@
+Processing 20 prompts...
+
+[1/20]
+  ⏭️  SKIPPING (already exists): Thank You Letter - First-Time Donor
+
+[2/20]
+  ⏭️  SKIPPING (already exists): Thank You Letter - Mid-Level Donor
+
+[3/20]
+  ⏭️  SKIPPING (already exists): Thank You Letter - Major Donor
+
+[4/20]
+  ⏭️  SKIPPING (already exists): Thank You Letter - Monthly Donor
+
+[5/20]
+  ⏭️  SKIPPING (already exists): Thank You Letter - Tribute/Memorial Gift
+
+[6/20]
+  ⏭️  SKIPPING (already exists): Thank You Letter - In-Kind Donation
+
+[7/20]
+  ⏭️  SKIPPING (already exists): Lapsed Donor Re-Engagement Email
+
+[8/20]
+  ⏭️  SKIPPING (already exists): Donor Upgrade Ask (One-Time to Monthly)
+
+[9/20]
+  ⏭️  SKIPPING (already exists): Annual Fund Appeal Letter
+
+[10/20]
+
+============================================================
+Generating: GivingTuesday Campaign Email
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3444 tokens, $0.0373)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 7.4/10, $0.0485)
+  → REFINING (initial score 7.4/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (7052 tokens, $0.0675)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.7/10, $0.0571)
+  ✓ IMPROVED (score 7.4 → 8.7/10)
+  ✓ Saved to giving-tuesday-email.md
+
+[11/20]
+
+============================================================
+Generating: Year-End Campaign Email Series (3-part)
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (2779 tokens, $0.0272)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 0/10, $0.0574)
+  → REFINING (initial score 0/10)
+Step 3: Calling GPT-5 to refine based on critique...
+  ✓ Refined (8028 tokens, $0.0760)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 9.2/10, $0.0472)
+  ✓ IMPROVED (score 0 → 9.2/10)
+  ✓ Saved to year-end-campaign-series.md
+
+[12/20]
+  ⏭️  SKIPPING (already exists): Emergency/Urgent Appeal
+
+[13/20]
+
+============================================================
+Generating: Peer-to-Peer Fundraising Template
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3200 tokens, $0.0336)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0400)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to peer-to-peer-template.md
+
+[14/20]
+  ⏭️  SKIPPING (already exists): Monthly Giving Pitch
+
+[15/20]
+  ⏭️  SKIPPING (already exists): Grant Executive Summary
+
+[16/20]
+  ⏭️  SKIPPING (already exists): Grant Needs Statement
+
+[17/20]
+  ⏭️  SKIPPING (already exists): Grant Project Description/Narrative
+
+[18/20]
+  ⏭️  SKIPPING (already exists): Grant Budget Narrative
+
+[19/20]
+
+============================================================
+Generating: Letter of Support Request
+============================================================
+Step 1: Calling GPT-5 to generate prompt...
+  ✓ Generated (3141 tokens, $0.0328)
+Step 2: Calling Claude to critique...
+  ✓ Critique complete (Score: 8.3/10, $0.0334)
+  → ACCEPTED (score 8.3/10)
+  ✓ Saved to letter-of-support-request.md
+
+[20/20]
+  ⏭️  SKIPPING (already exists): Grant Prospect Research Summary
+
+============================================================
+SUMMARY
+============================================================
+Total in inventory: 20
+Skipped (already exist): 16
+Processed: 4
+Average Score: 6.00/10
+
+⚠️  Low-scoring prompts (review needed):
+  - Year-End Campaign Email Series (3-part): 0/10
